@@ -53,7 +53,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
 <body>
 <button class="collapsible">the surface area</button>
 <div class="content">
-  <p>Careful!  As we shrink or expand our shape by squeezing or stretching it, we will change the surface area</p>
+  <p>Careful!  The area changes as we shrink or expand our shape by squeezing or stretching it.</p>
 </div>
 <button class="collapsible">the number of corners</button>
 <div class="content">
