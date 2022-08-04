@@ -54,21 +54,15 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
 
 <button class="collapsible">the surface area</button>
 <div class="content">
-  <p>
-  Careful!  The surface area can definitely change as we squeeze and pull the object.
-  </p>
+  <p>Careful!  The surface area can definitely change as we squeeze and pull the object.</p>
 </div>
 <button class="collapsible">the number of corners on the surface</button>
 <div class="content">
-  <p>
-  Careful!  Things like corners can be smoothed out.
-  </p>
+  <p>Careful!  Things like corners can be smoothed out.</p>
 </div>
 <button class="collapsible">the number of holes in the surface</button>
 <div class="content">
-  <p>
-  Right!  Setting aside the important step of rigorously defining a "hole", there's no way to repair a hole by pulling or squeezing the surface.  Nor is there a way to make new holes, without ripping our surface.
-  </p>
+  <p>Right!  Setting aside the important step of rigorously defining a "hole", there's no way to repair a hole by pulling or squeezing the surface.  Nor is there a way to make new holes, without ripping our surface.</p>
 </div>
 
 <script>
