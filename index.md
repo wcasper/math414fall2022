@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Math 412 Complex Analysis
+title: Math 414 Topology
 ---
 
 
@@ -14,23 +14,17 @@ title: Math 412 Complex Analysis
 
 **Email:** wcasper@fullerton.edu
 
-**Course meetings:** Tuesday and Thursday 10:00AM-11:15AM
+**Course meetings:** Monday and Wednesday 4:00PM-5:15PM
 
 **Office hours:** to be determined and by appointment
 
-**Zoom number for remote office hours:** <a target="_parent" href="https://fullerton.zoom.us/j/86718734195">86718734195</a>
-
-**Passcode:** 112358
+**Zoom number for remote office hours:** <a target="_parent" href="https://fullerton.zoom.us/j/9339191166">9339191166</a>
 
 **Syllabus:** <a target="_parent" href="syllabus.html">Course syllabus (link)</a>
 
 **First steps**
 
-Please familiarize yourself with the syllabus and the Canvas site for this course, starting with the <a target="_parent" href="https://csufullerton.instructure.com/courses/3210797/modules">Orientation Module (link)</a>.  Also, be sure that you have the necessary technological requisites for remote office hours:
-* A reliable internet connection
-* Zoom
-* A webcam
-* A microphone
+Please familiarize yourself with the syllabus and the Canvas site for this course, starting with the [Orientation Module (link)](https://csufullerton.instructure.com/courses/3344572/modules/8051367).
 
 Please reach out as soon as possible if you have any questions or concerns.
 
