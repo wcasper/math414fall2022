@@ -9,12 +9,11 @@ In particular, we can "morph" a cube into a sphere by smoothing the edges and pu
 
 <p align="center"><img src="fig/cube-to-sphere.png"/></p>
 
-However, no amount of squeezing, pulling, or massaging will allow us to transform a torus into a sphere or a cube.  The torus has some property that makes its shape fundamentally different from the other two.  Topology studies properties of different shapes, called **topological spaces**, which cannot be changed by squeezing and pulling.  At its heart, it tries to decide which topological spaces are topologically equivalent, called **homeomorphic**, or distinct.
+However, no amount of squeezing, pulling, or massaging will allow us to transform a torus into a sphere or a cube, at least not without cutting and regluing parts of our shape.  The torus has some property that makes its shape fundamentally different from the other two.  Topology studies properties of different shapes, called **topological spaces**, which cannot be changed by squeezing and pulling.  At its heart, it tries to decide which topological spaces are topologically equivalent, called **homeomorphic**, or distinct.
 
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
   background-color: #777;
@@ -52,29 +51,23 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   background-color: #f1f1f1;
 }
 </style>
-</head>
-<body>
 
-<h2>Animated Collapsibles</h2>
-
-<p>A Collapsible:</p>
-<button class="collapsible">Open Collapsible</button>
+<button class="collapsible">the surface area</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>
+  Careful!  The surface area can definitely change as we squeeze and pull the object.
+  </p>
 </div>
-
-<p>Collapsible Set:</p>
-<button class="collapsible">Open Section 1</button>
+<button class="collapsible">the number of corners on the surface</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="collapsible">Open Section 2</button>
+  <p>
+  Careful!  Things like corners can be smoothed out.
+  </p>
+<button class="collapsible">the number of holes in the surface</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="collapsible">Open Section 3</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>
+  Right!  Setting aside the important step of rigorously defining a "hole", there's no way to repair a hole by pulling or squeezing the surface.  Nor is there a way to make new holes, without ripping our surface.
+  </p>
 </div>
 
 <script>
