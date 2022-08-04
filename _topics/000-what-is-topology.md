@@ -18,7 +18,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 80%;
   border: none;
   text-align: left;
   outline: none;
