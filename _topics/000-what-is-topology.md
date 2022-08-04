@@ -18,7 +18,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 80%;
+  width: 60%;
   border: none;
   text-align: left;
   outline: none;
@@ -46,7 +46,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 </style>
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
