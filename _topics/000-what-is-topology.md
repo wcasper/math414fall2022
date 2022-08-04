@@ -49,22 +49,19 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   background-color: #f1f1f1;
 }
 </style>
-<body>
-
-
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
-
-<button class="collapsible">Open Section 1</button>
+<body>
+<button class="collapsible">the surface area</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Careful!  As we shrink or expand our shape by squeezing or stretching it, we will change the surface area</p>
 </div>
-<button class="collapsible">Open Section 2</button>
+<button class="collapsible">the number of corners</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Careful!  Corners can be smoothed away, just like when we make a cube into a sphere.</p>
 </div>
-<button class="collapsible">Open Section 3</button>
+<button class="collapsible">the number of holes</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Right!  Setting aside the important task of rigorously defining a "hole", intuitively we can understand that by squeezing or stretching a surface we cannot change the number of holes.</p>
 </div>
 
 <script>
@@ -83,7 +80,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-
 </body>
 
 
