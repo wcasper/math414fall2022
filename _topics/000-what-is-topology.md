@@ -51,6 +51,16 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   background-color: #f1f1f1;
 }
 </style>
+</head>
+<body>
+
+<h2>Animated Collapsibles</h2>
+
+<p>A Collapsible:</p>
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
 <p>Collapsible Set:</p>
 <button class="collapsible">Open Section 1</button>
@@ -66,21 +76,6 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-
-
-<button class="collapsible">the surface area</button>
-<div class="content">
-  <p>Careful!  The surface area can definitely change as we squeeze and pull the object.</p>
-</div>
-<button class="collapsible">the number of corners on the surface</button>
-<div class="content">
-  <p>Careful!  Things like corners can be smoothed out.</p>
-</div>
-<button class="collapsible">the number of holes in the surface</button>
-<div class="content">
-  <p>Right!  Setting aside the important step of rigorously defining a "hole", there's no way to repair a hole by pulling or squeezing the surface.  Nor is there a way to make new holes, without ripping our surface.</p>
-</div>
-
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -93,11 +88,12 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-    }
+    } 
   });
 }
 </script>
 
+</body>
 
 
 
