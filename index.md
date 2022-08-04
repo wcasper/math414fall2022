@@ -9,6 +9,7 @@ layout: home
 title: Math 414 Topology
 ---
 
+<p align="center"><img src="fig/coffee-cup.jpeg"/></p>
 
 **Instructor:** Dr. W. Riley Casper [(About your instructor)](instructor)
 
