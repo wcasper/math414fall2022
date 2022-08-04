@@ -50,7 +50,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
 Often this comes down to showing that two different topological spaces have different topological properties.
 
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
-<body>
+<body align="center">
 <button class="collapsible">(A) the surface area</button>
 <div class="content">
   <p>Careful!  The area changes as we shrink or expand our shape by squeezing or stretching it.</p>
