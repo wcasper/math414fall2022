@@ -63,6 +63,7 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
   <p>
   Careful!  Things like corners can be smoothed out.
   </p>
+</div>
 <button class="collapsible">the number of holes in the surface</button>
 <div class="content">
   <p>
@@ -86,5 +87,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+
+
 
 
