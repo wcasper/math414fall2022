@@ -50,16 +50,22 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
 Often this comes down to showing that two different topological spaces have different topological properties.
 
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
-<body align="center">
+<body>
+<center>
 <button class="collapsible">(A) the surface area</button>
+</center>
 <div class="content">
   <p>Careful!  The area changes as we shrink or expand our shape by squeezing or stretching it.</p>
 </div>
+<center>
 <button class="collapsible">(B) the number of corners</button>
+</center>
 <div class="content">
   <p>Careful!  Corners can be smoothed away, just like when we make a cube into a sphere.</p>
 </div>
+<center>
 <button class="collapsible">(C) the number of holes</button>
+</center>
 <div class="content">
   <p>Right!  Setting aside the important task of rigorously defining a "hole", intuitively we can understand that by squeezing or stretching a surface we cannot change the number of holes.</p>
 </div>
