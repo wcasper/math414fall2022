@@ -48,19 +48,22 @@ We say that a set $$A$$ is a **subset** of a set $$B$$ if every element in $$A$$
 If $$A\subseteq B$$ and $$B\subseteq A$$, then we say $$A$$ and $$B$$ are **equal** and write $$A=B$$.  If $$A\subseteq B$$ and $$A\neq B$$, we say that $$A$$ is a **proper subset** of $$B$$ and write $$A\subsetneq B$$.
 
 **Question:** Which of the following statements about sets is FALSE?
+* (A) there is a set $$A$$ with $$A\subseteq B$$ for all sets $$B$$
+* (B) there is a set $$A$$ with $$B\subseteq A$$ for all sets $$B$$
+* (C) there exists a set $$A$$ with an element $$x\in A$$ satisfying $$x\subseteq A$$
 <body>
 <center>
-<button class="collapsible">(A) there is a set $$A$$ with $$A\subseteq B$$ for all sets $$B$$.</button>
+<button class="collapsible">(A) </button>
 <div class="content">
   <p>Careful!  The empty set is a subset of every set.  In fact it is the only set which is a subset of every other set.</p>
 </div>
-<button class="collapsible">(B) there is a set $$A$$ which </button>
+<button class="collapsible">(B) </button>
 <div class="content">
-  <p>Careful!  Corners can be smoothed away, just like when we make a cube into a sphere.</p>
+  <p>Right!  Unfortunately sometimes sets that intuitively make sense can run into trouble if they are "too big".  This generates paradoxes, such as Russell's Paradox.  The fix for this is adopting axiomatic set theory, which codifies the behavior of sets and specifically excludes the existence of sets leading to these kinds of paradoxes.</p>
 </div>
-<button class="collapsible">(C) there exists a set $$A$$ with an element $$x\in A$$ satisfying $$x\subseteq A$$</button>
+<button class="collapsible">(C) </button>
 <div class="content">
-  <p>Careful!  Sets can also be elements of other sets.  For example, if we take $$A = \{1,2,\{1\}\}$$ then $$\{1\}$$ is an element of $$A$$ but also a subset of $$A$$.</p>
+  <p>Careful!  Sets can also be elements of other sets.  Can you think of an example of a set containing an element which is also a subset?</p>
 </div>
 </center>
 <script>
