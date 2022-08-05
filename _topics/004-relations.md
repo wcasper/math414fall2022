@@ -85,9 +85,9 @@ Conversely, if we start with a partition $$\{A_i: i\in I\}$$ of $$A$$, then we c
 
 
 **Question:** For each of the following relations on $$\mathbb Z$$, decide if the relation is reflexive, symmetric, or transitive.
-* (A) $$x\mathscr y$$ iff $$x$$ divides $$y$$
-* (B) $$x\mathscr y$$ iff $$x-y$$ is even
-* (C) $$x\mathscr y$$ iff $$x-y$$ is odd
+* (A) $$x\mathscr R y$$ iff $$x$$ divides $$y$$
+* (B) $$x\mathscr R y$$ iff $$x-y$$ is even
+* (C) $$x\mathscr R y$$ iff $$x-y$$ is odd
 <body>
 <center>
 <button class="collapsible">answer for (A)</button>
