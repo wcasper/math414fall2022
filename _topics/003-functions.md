@@ -51,23 +51,61 @@ Loosely speaking, a **function** $$f: A\rightarrow B$$ from a set $$A$$ to a set
 
 The set $$A$$ is called the **domain** of the function and $$B$$ is called the **codomain**.  The set of all values that the function attains over its domain is called the **range**.
 
+### Properties of functions
+
+Three basic properties of functions are useful starting out.
+
+* A function $$f: A\rightarrow B$$ is **one-to-one** or **injective** if $$f(x) = f(x')$$ implies $$x=x'$$ for all $$x,x'\in A$$.
+* A function $$f: A\rightarrow B$$ is **onto** or **surjective** if for all $$y\in B$$ there exists $$x\in A$$ with $$f(x) = y$$.  Equivalently, if the codomain of $$f$$ is the same as the range of $$f$$.
+* A function $$f: A\rightarrow B$$ is **bijective** if it is both injective and surjective.
+
 ### Special kinds of functions
 
 A function $$f: X\rightarrow\mathbb R$$ from a set $$X$$ to the real numbers is called a **real function** on $$X$$.
 Likewise, a function $$f: X\rightarrow\mathbb C$$ is called a **complex function**.
 A function whose range consists of a single value is called a **constant function**.
+The function $$f:X\rightarrow X$$ with the rule $$f(x) = x$$ is called the **identity function** on $$X$$.
 
-Suppose that $$A$$, $$B$$, and $$C$$ are sets with $$C\subseteq A$$.  Then given a function $$f: A\rightarrow B$$, we can define the **restriction** of $$f$$ to $$C$$ by
+Suppose that $$A$$, $$B$$, and $$U$$ are sets with $$U\subseteq A$$.  Then given a function $$f: A\rightarrow B$$, we can define the **restriction** of $$f$$ to $$U$$ by
 
-$$f\vert_C: C\rightarrow B,\ \ f\vert_C(x) = f(x)\ \forall x\in C.$$
+$$f\vert_U: U\rightarrow B,\ \ f\vert_U(x) = f(x)\ \forall x\in U.$$
 
-In other words, $$f\vert_C$$ is the function which borrows the rule of $$f$$ but only applies it on the smaller set $$C$$.  In this setting, we also refer to $$f$$ as an extension of $$f\vert_C$$.
+In other words, $$f\vert_U$$ is the function which borrows the rule of $$f$$ but only applies it on the smaller set $$U$$.  In this setting, we also refer to $$f$$ as an **extension** of $$f\vert_U$$.
 
-## Properties of functions
+Given another function $$g: B\rightarrow C$$ we can form the **composition** $$g\circ f: A\rightarrow C$$ which is defined by the rule $$(g\circ f)(x) = g(f(x))$$.
 
+In the case that $$f$$ is bijective, we can define it's **inverse function** $$f^{-1}: B\rightarrow A$$ which is defined by the rule $$f^{-1}(y) = x$$ for $$y = f(x)$$.  In particular, we have the identities
 
+$$f(f^{-1}(y)) = y\quad\text{and}\quad f^{-1}(f(x)) = x.$$
 
-## Formal definition of a function
+In terms of compositions, this says $$f\circ f^{-1}$$ is the identity function on $$B$$ and $$f^{-1}\circ f$$ is the identity function on $$A$$.
+
+Note that the **only** functions which have inverses are bijections.  Even so, sometimes for convenience we call certain functions inverses, even when inverses don't exist!  What is meant is an inverse function on a restricted domain and range.  For example, $$\arcsin(x)$$ is an inverse function of $$\sin(x)$$ on the restricted domain $$[-\pi/2,\pi/2]$$ and codomain $$[-1,1]$$.  Changing the domain and codomain will change the inverse function, or cause it to cease to exist.
+
+### Image and preimage
+
+Consider a function $$f: A\rightarrow B$$.  The **image** of a subset $$U\subseteq A$$ under $$f$$ is
+
+$$f(U) = \{y\in B: y=f(x)\ \text{for some}\ x\in U\}.$$
+
+Images satisfy the following properties
+
+* $$U_1\subseteq U_2\ \Rightarrow\ f(U_1)\subseteq f(U_2)$$
+* $$f(\bigcup_I U_i) = \bigcup_I f(U_i)$$
+* $$f(\bigcap_I U_i) \subseteq \bigcap_{I} f(U_i)$$
+
+Likewise, the **preimage** of a subset $$V\subseteq B$$ under $$f$$ is
+
+$$f^{-1}(V) = \{x\in A: y=f(x)\ \text{for some}\ y\in V\}.$$
+
+**Note:** It is not necessary for $$f^{-1}$$ to be invertible for this to make sense!
+
+Preimages satisfy the following properties
+
+* $$V_1\subseteq V_2\ \Rightarrow\ f^{-1}(V_1)\subseteq f^{-1}(V_2)$$
+* $$f^{-1}(\bigcup_I V_i) = \bigcup_I f^{-1}(V_i)$$
+* $$f^{-1}(\bigcap_I V_i) = \bigcap_{I} f^{-1}(V_i)$$
+* $$f^{-1}(V') = (f^{-1}(V))'$$
 
 **Question:** Which of the following statements about algebra with sets is FALSE?
 * (A) the complement of $$A'$$ is $$A$$
@@ -107,7 +145,24 @@ for (i = 0; i < coll.length; i++) {
 </body>
 
 <br/>
-## Bigger unions and intersections
+
+## Formal definition of a function
+The way that we have defined functions is how we tend to use them in practice.
+However, it is a bit lackluster from a mathematical point of view, since we are introducing some kind of new undefined term we are calling a "rule".
+The right way to define a function is in terms of sets.
+In fact, as you probably already know a function is really a special kind of set!
+
+Formally, a **function** $$f: A\rightarrow B$$ is a subset $$\Gamma_f$$ of the Cartesian product $$A\times B$$ satisfying two properties
+* for all $$x\in A$$ there exists $$y\in B$$ with $$(x,y)\in \Gamma_f$$
+* if $$(x,y)\in \Gamma_f$$ and $$(x,y')\in \Gamma_f$$ then $$y=y'$$
+
+Then notationally, the statement $$f(x) = y$$ is just a new way of writing $$(x,y)\in\Gamma_f$$.
+Thus the first property guarantees that $$f$$ assigns every value of $$x$$ to a value of $$y$$.
+The second property says that each $$x$$ is assigned to at most one value of $$y$$.
+The subset $$\Gamma_f$$ is sometimes called the **graph of** $$f$$.  
+
+Subsets of the Cartesian product $$A\times B$$ are called **relations**.  We will talk more about relations later on.
+
 
 
 
