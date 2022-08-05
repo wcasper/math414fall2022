@@ -107,23 +107,31 @@ Preimages satisfy the following properties
 * $$f^{-1}(\bigcap_I V_i) = \bigcap_{I} f^{-1}(V_i)$$
 * $$f^{-1}(V') = (f^{-1}(V))'$$
 
-**Question:** Which of the following statements about algebra with sets is FALSE?
-* (A) the complement of $$A'$$ is $$A$$
-* (B) $$A\cup B=B$$ if and only if $$B\subseteq A$$
-* (C) $$A\cap B=B$$ if and only if $$B\subseteq A$$
+In particular, preimages are more well-behaved than images.  This will be seen repeatedly throughout the course.
+
+**Question:** Let $$f: A\rightarrow B$$ be a function.  Prove that $$f(U_1\cap U_2) = f(U_1)\cap f(U_2)$$ for all subsets $$U_1,U_2\subseteq A$$ if and only if $$f$$ is injective.
 <body>
 <center>
-<button class="collapsible">obviously the answer is (A) </button>
+<button class="collapsible">reveal solution</button>
 <div class="content">
-  <p>Careful!  Carefully working through the definition, you should be able to see that taking the complement of a complement gets you back to where you started.</p>
-</div>
-<button class="collapsible">no way, the answer is (B) </button>
-<div class="content">
-  <p>Right!  Actually the first statement is equivalent to A being a subset of B</p>
-</div>
-<button class="collapsible">can't trick me, it's (C) </button>
-<div class="content">
-  <p>Careful!  Try drawing a Venn diagram to see that these two conditions are the same.</p>
+  <p>
+  First suppose that our function is injective and define a new function
+  $$g: f(A)\rightarrow A,\quad g(y) = x\ \text{for}\ f(x)=y.$$
+  This new function is bijective and therefore has an inverse.  In fact
+  $$f(U_1)\cap f(U_2) = g^{-1}(U_1)\cap g^{-1}(U_2) = g^{-1}(U_1\cap U_2) = f(U_1\cap U_2).$$
+  Now to prove the other direction, suppose that 
+  $$f(U_1\cap U_2) = f(U_1)\cap f(U_2),\ \forall U_1,U_2\subseteq A.$$
+  Then
+  $$f(\{x\}\cap \{x'\}) = f(\{x\})\cap f(\{x'\}),\ \forall x,x'\in A$$
+  and thus
+  $$\begin{align*}
+  f(x') = f(x) & \Leftrightarrow f(\{x\})\cap f(\{x'\})\neq\varnothing\\
+               & \Leftrightarrow f(\{x\}\cap \{x'\})\neq\varnothing\\
+               & \Leftrightarrow x=x'.
+  \end{align*}
+  $$
+  This proves that the function is injective.
+  </p>
 </div>
 </center>
 <script>
