@@ -119,13 +119,9 @@ $$\bigcap_{i\in I} A_i = \{x: x\in A_j\ \text{for all j\in I}\}.$$
 
 Again, both **De Morgan's Laws** and **distributivity** hold:
 
-$$B\cap \bigcup_{i\in I} A_i = \bigcup_{i\in I} (B\cap A_i)$$
+$$B\cap \bigcup_{i\in I} A_i = \bigcup_{i\in I} (B\cap A_i)\quad\text{and}\quad B\cup \bigcap_{i\in I} A_i = \bigcap_{i\in I} (B\cup A_i)$$
 
-$$B\cup \bigcap_{i\in I} A_i = \bigcap_{i\in I} (B\cup A_i)$$
-
-$$\left(\bigcup_{i\in I} A_i\right)' =  \bigcap_{i\in I} A_i'$$
-
-$$\left(\bigcap_{i\in I} A_i\right)' =  \bigcup_{i\in I} A_i'$$
+$$\left(\bigcup_{i\in I} A_i\right)' =  \bigcap_{i\in I} A_i'\quad\text{and}\quad\left(\bigcap_{i\in I} A_i\right)' =  \bigcup_{i\in I} A_i'$$
 
 
 
