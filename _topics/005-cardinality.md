@@ -91,13 +91,13 @@ x_2 &= 0.d_{21}d_{22}d_{23}d_{24}d_{25}\dots\\
 x_3 &= 0.d_{31}d_{32}d_{33}d_{34}d_{35}\dots\\
 x_4 &= 0.d_{41}d_{42}d_{43}d_{44}d_{45}\dots\\
 x_5 &= 0.d_{51}d_{52}d_{53}d_{54}d_{55}\dots\\
-\vdots & \vdots
+\vdots & \quad\quad\quad\vdots
 \end{align*}$$
 
-so that $$d_{jk}$$ is the $$k$$'th decimal place in the decimal expansion of $$x_k$$, which is an integer between $$0$$ and $$9$$.
+so that $$d_{jk}$$ is the $$k$$'th decimal place in the decimal expansion of $$x_k$$.
 The right hand side of this looks like a big matrix, and we want to play with the main diagonal.  We consider the real number $$y$$ with decimal expansion
 
-$$y = 0.d_1d_2d_3d_4d_5\dots,\quad \text{with}\ d_k = d_{kk} + 2\mod 10.$$
+$$y = 0.d_1d_2d_3d_4d_5\dots,\quad \text{with}\ d_k = d_{kk} + 2\mod 10$$
 
 Clearly $$y\in (0,1)$$ and since $$(0,1) = \{x_1,x_2,x_3,\dots\}$$ we must have $$y=x_k$$ for some $$k$$.
 However, by definition we see that $$y\neq x_k$$ for all $$k$$ because both numbers have different values in the $$k$$'th decimal place!
@@ -110,18 +110,14 @@ In fact, we can adapt Cantor's argument to prove that there are even bigger card
 Here the **power set** of $$X$$ is the set of subsets of $$X$$.
 
 **Question:** Which of the following sets have the same cardinalities and which have different.  Which of the following sets are countable?
-* $$\mathbb Z$$
-* $$\{n\in \mathbb Z: n\ \text{is even}\}$$
-* $$\mathbb R$$
-* $$\mathbb Q$$
-* $$\mathbb C$$
+* $$\mathbb Z$$, $$\{n\in \mathbb Z: n\ \text{is even}\}$$, $$\mathbb R$$, $$\mathbb Q$$, $$\mathbb C$$
 <body>
 <center>
 <button class="collapsible">see answer</button>
 <div class="content">
   <p>
   The set of integers, set of even integers, and set of rational numbers are all countably infinite (and therefore have the same cardinality.
-  The sets $$\mathbb R$$ and $$\mathbb C$$ both have the same cardinality as the interval $$(0,1)$$ and uncountable.
+  The real and complex numbers both have the same cardinality as the interval (0,1) and are uncountable.
   </p>
 </div>
 </center>
