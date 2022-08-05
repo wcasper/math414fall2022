@@ -41,7 +41,7 @@ title: The algebra of sets
 }
 </style>
 
-**Additional reading:** Simmons 1.2
+**Additional reading:** Simmons 1.2 and 1.4
 
 There are several natural operations for creating new sets out of old ones.
 
@@ -70,6 +70,10 @@ Additionally, taking complements swaps unions and intersections.  This is someti
 $$(A\cup B)' = A'\cap B'$$
 
 $$(A\cap B)' = A'\cup B'$$
+
+* the **Cartesian product** or simply **product** of two sets $$A$$ and $$B$$ is the set of all pairs of elements
+
+$$A\times B= \{(a,b): a\in A,\ b\in B\}.$$
 
 **Question:** Decide if each of the following statements about algebra with sets is TRUE or FALSE.
 * (A) the complement of $$A'$$ is $$A$$
@@ -123,6 +127,14 @@ $$B\cap \bigcup_{i\in I} A_i = \bigcup_{i\in I} (B\cap A_i)\quad\text{and}\quad 
 
 $$\left(\bigcup_{i\in I} A_i\right)' =  \bigcap_{i\in I} A_i'\quad\text{and}\quad\left(\bigcap_{i\in I} A_i\right)' =  \bigcup_{i\in I} A_i'$$
 
+## Bigger products
 
+We can take the product of a collection of several sets
+
+$$A_1\times A_2\times\dots A_n = \{(a_1,a_2,\dots,a_n): a_j\in A_j\ \forall 1\leq j\leq n\}.$$
+
+We can even do this for an arbitrary collection of sets
+
+$$\prod_{i\in I} A_i = \{(a_i)_{i\in I}: a_j\in A_j\ \forall j\in I\}.$$
 
 
