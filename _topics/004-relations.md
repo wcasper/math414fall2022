@@ -129,22 +129,6 @@ for (i = 0; i < coll.length; i++) {
 
 <br/>
 
-## Formal definition of a function
-The way that we have defined functions is how we tend to use them in practice.
-However, it is a bit lackluster from a mathematical point of view, since we are introducing some kind of new undefined term we are calling a "rule".
-The right way to define a function is in terms of sets.
-In fact, as you probably already know a function is really a special kind of set!
-
-Formally, a **function** $$f: A\rightarrow B$$ is a subset $$\Gamma_f$$ of the Cartesian product $$A\times B$$ satisfying two properties
-* for all $$x\in A$$ there exists $$y\in B$$ with $$(x,y)\in \Gamma_f$$
-* if $$(x,y)\in \Gamma_f$$ and $$(x,y')\in \Gamma_f$$ then $$y=y'$$
-
-Then notationally, the statement $$f(x) = y$$ is just a new way of writing $$(x,y)\in\Gamma_f$$.
-Thus the first property guarantees that $$f$$ assigns every value of $$x$$ to a value of $$y$$.
-The second property says that each $$x$$ is assigned to at most one value of $$y$$.
-The subset $$\Gamma_f$$ is sometimes called the **graph of** $$f$$.  
-
-Subsets of the Cartesian product $$A\times B$$ are called **relations**.  We will talk more about relations later on.
 
 
 
