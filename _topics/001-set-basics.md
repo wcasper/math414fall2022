@@ -104,6 +104,7 @@ Some special sets that we will rely on are
 * the set $$\mathbb Q$$ of rational numbers
 * the set $$\mathbb R$$ of real numbers
 * the set $$\mathbb C$$ of complex numbers
+
 As an important special case for us, we adopt the typical notation for subintervals of the real numbers.
 
 
