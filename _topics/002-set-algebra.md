@@ -71,23 +71,23 @@ $$(A\cup B)' = A'\cap B'$$
 
 $$(A\cap B)' = A'\cup B'$$
 
-**Question:** Which of the following statements about algebra with sets is FALSE?
+**Question:** Decide if each of the following statements about algebra with sets is TRUE or FALSE.
 * (A) the complement of $$A'$$ is $$A$$
 * (B) $$A\cup B=B$$ if and only if $$B\subseteq A$$
 * (C) $$A\cap B=B$$ if and only if $$B\subseteq A$$
 <body>
 <center>
-<button class="collapsible">obviously the answer is (A) </button>
+<button class="collapsible">result for (A) </button>
 <div class="content">
-  <p>Careful!  Carefully working through the definition, you should be able to see that taking the complement of a complement gets you back to where you started.</p>
+  <p>TRUE.  Carefully working through the definition, you should be able to see that taking the complement of a complement gets you back to where you started.</p>
 </div>
-<button class="collapsible">no way, the answer is (B) </button>
+<button class="collapsible">result for (B) </button>
 <div class="content">
-  <p>Right!  Actually the first statement is equivalent to A being a subset of B</p>
+  <p>FALSE.  Actually the first statement is equivalent to A being a subset of B</p>
 </div>
-<button class="collapsible">can't trick me, it's (C) </button>
+<button class="collapsible">result for (C) </button>
 <div class="content">
-  <p>Careful!  Try drawing a Venn diagram to see that these two conditions are the same.</p>
+  <p>TRUE.  Try drawing a Venn diagram to see that these two conditions are the same.</p>
 </div>
 </center>
 <script>
