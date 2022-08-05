@@ -41,6 +41,8 @@ title: Set basics
 }
 </style>
 
+**Additional reading:** Simmons 1.1
+
 Sets play a fundamental role in all mathematics because under the hood almost everything is a set.  Numbers are sets.  Functions are sets.  Even topological spaces are sets.
 Intuitively, a **set** is a collection of objects called **elements** and we write $$x\in A$$ means $$x$$ *is an element of* $$A$$.
 
@@ -105,7 +107,9 @@ Some special sets that we will rely on are
 * the set $$\mathbb R$$ of real numbers
 * the set $$\mathbb C$$ of complex numbers
 
-As an important special case for us, we adopt the typical notation for subintervals of the real numbers.
+An important special case for us, we adopt the typical notation for subintervals of the real numbers.
+
+Since there isn't a set of everything, we will often work within a **universe**, a set $$U$$ consisting of all the elements that we are interested in.  If, for example, we are considering sets of real numbers then it would be natural to take $$U=\mathbb R$$.  The universe that we are working with will often not be explicity mentioned, but should be clear from context.
 
 
 
