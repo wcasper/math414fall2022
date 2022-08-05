@@ -53,15 +53,15 @@ If $$A\subseteq B$$ and $$B\subseteq A$$, then we say $$A$$ and $$B$$ are **equa
 * (C) there exists a set $$A$$ with an element $$x\in A$$ satisfying $$x\subseteq A$$
 <body>
 <center>
-<button class="collapsible">(A) </button>
+<button class="collapsible">obviously the answer is (A) </button>
 <div class="content">
   <p>Careful!  The empty set is a subset of every set.  In fact it is the only set which is a subset of every other set.</p>
 </div>
-<button class="collapsible">(B) </button>
+<button class="collapsible">no way, the answer is (B) </button>
 <div class="content">
   <p>Right!  Unfortunately sometimes sets that intuitively make sense can run into trouble if they are "too big".  This generates paradoxes, such as Russell's Paradox.  The fix for this is adopting axiomatic set theory, which codifies the behavior of sets and specifically excludes the existence of sets leading to these kinds of paradoxes.</p>
 </div>
-<button class="collapsible">(C) </button>
+<button class="collapsible">can't trick me, it's (C) </button>
 <div class="content">
   <p>Careful!  Sets can also be elements of other sets.  Can you think of an example of a set containing an element which is also a subset?</p>
 </div>
