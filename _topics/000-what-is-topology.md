@@ -53,22 +53,18 @@ Often this comes down to showing that two different topological spaces have diff
 <body>
 <center>
 <button class="collapsible">(A) the surface area</button>
-</center>
 <div class="content">
   <p>Careful!  The area changes as we shrink or expand our shape by squeezing or stretching it.</p>
 </div>
-<center>
 <button class="collapsible">(B) the number of corners</button>
-</center>
 <div class="content">
   <p>Careful!  Corners can be smoothed away, just like when we make a cube into a sphere.</p>
 </div>
-<center>
 <button class="collapsible">(C) the number of holes</button>
-</center>
 <div class="content">
   <p>Right!  Setting aside the important task of rigorously defining a "hole", intuitively we can understand that by squeezing or stretching a surface we cannot change the number of holes.</p>
 </div>
+</center>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
