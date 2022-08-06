@@ -116,6 +116,12 @@ $$\mathcal P(X) = \{U: U\subseteq X\}.$$
 
 $$\mathbb Z$$, $$\{n\in \mathbb Z: n\ \text{is even}\}$$, $$\mathbb R$$, $$\mathbb Q$$, $$\mathbb C$$
 
+
+<details>
+    <summary>Details</summary>
+    Something small enough to escape casual notice.
+</details>
+
 <body>
 <center>
 <button class="collapsible">see answer</button>
