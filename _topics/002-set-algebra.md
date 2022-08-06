@@ -3,44 +3,6 @@ layout: page
 title: The algebra of sets
 ---
 
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 40%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #ffffff;
-}
-</style>
-
 **Additional reading:** Simmons 1.2 and 1.4
 
 There are several natural operations for creating new sets out of old ones.
@@ -79,38 +41,24 @@ $$(A\cap B)' = A'\cup B'$$
 * (A) the complement of $$A'$$ is $$A$$
 * (B) $$A\cup B=B$$ if and only if $$B\subseteq A$$
 * (C) $$A\cap B=B$$ if and only if $$B\subseteq A$$
-<body>
-<center>
-<button class="collapsible">result for (A) </button>
-<div class="content">
-  <p>TRUE.  Carefully working through the definition, you should be able to see that taking the complement of a complement gets you back to where you started.</p>
-</div>
-<button class="collapsible">result for (B) </button>
-<div class="content">
-  <p>FALSE.  Actually the first statement is equivalent to A being a subset of B</p>
-</div>
-<button class="collapsible">result for (C) </button>
-<div class="content">
-  <p>TRUE.  Try drawing a Venn diagram to see that these two conditions are the same.</p>
-</div>
-</center>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-</body>
+<details>
+  <summary>
+  Reveal answer for (A).
+  </summary>
+  TRUE.  Carefully working through the definition, you should be able to see that taking the complement of a complement gets you back to where you started.
+</details>
+<details>
+  <summary>
+  Reveal answer for (B).
+  </summary>
+  FALSE.  Actually the first statement is equivalent to A being a subset of B
+</details>
+<details>
+  <summary>
+  Reveal answer for (C).
+  </summary>
+  TRUE.  Try drawing a Venn diagram to see that these two conditions are the same.
+</details>
 
 <br/>
 ## Bigger unions and intersections

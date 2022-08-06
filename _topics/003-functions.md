@@ -3,44 +3,6 @@ layout: page
 title: Functions
 ---
 
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 40%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #ffffff;
-}
-</style>
-
 **Additional reading:** Simmons 1.3
 
 Loosely speaking, a **function** $$f: A\rightarrow B$$ from a set $$A$$ to a set $$B$$ is a rule which associates to each element of $$A$$ a unique element $$f(a)$$ of $$B$$, which we call the **image** of $$a$$ under $$f$$.  Functions are so common in mathematics that they end up going by many names, such as **map**, **transformation**, or **operator**.  The language that is favored often depents on the flavor of mathematics we are studying.
@@ -110,11 +72,8 @@ Preimages satisfy the following properties
 In particular, preimages are more well-behaved than images.  This will be seen repeatedly throughout the course.
 
 **Question:** Let $$f: A\rightarrow B$$ be a function.  Prove that $$f(U_1\cap U_2) = f(U_1)\cap f(U_2)$$ for all subsets $$U_1,U_2\subseteq A$$ if and only if $$f$$ is injective.
-<body>
-<center>
-<button class="collapsible">reveal solution</button>
-<div class="content">
-  <p>
+<details>
+  <summary>reveal solution</summary>
   First suppose that our function is injective and define a new function
   $$g: f(A)\rightarrow A,\quad g(y) = x\ \text{for}\ f(x)=y.$$
   This new function is bijective and therefore has an inverse.  In fact
@@ -131,27 +90,7 @@ In particular, preimages are more well-behaved than images.  This will be seen r
   \end{align*}
   $$
   This proves that the function is injective.
-  </p>
-</div>
-</center>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-</body>
-
+</details>
 <br/>
 
 ## Formal definition of a function
