@@ -113,8 +113,7 @@ Here the **power set** of $$X$$ is the set of subsets of $$X$$:
 $$\mathcal P(X) = \{U: U\subseteq X\}.$$
 
 **Question:** Which of the following sets have the same cardinalities?  Which of the following sets are countable?
-
-$$\mathbb Z$$, $$\{n\in \mathbb Z: n\ \text{is even}\}$$, $$\mathbb R$$, $$\mathbb Q$$, $$\mathbb C$$
+* $$\mathbb Z$$, $$\{n\in \mathbb Z: n\ \text{is even}\}$$, $$\mathbb R$$, $$\mathbb Q$$, $$\mathbb C$$
 
 
 <details>
