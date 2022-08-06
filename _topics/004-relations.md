@@ -3,44 +3,6 @@ layout: page
 title: Relations
 ---
 
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 40%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #ffffff;
-}
-</style>
-
 **Additional reading:** Simmons 1.5
 
 ### Relations
@@ -88,46 +50,18 @@ Conversely, if we start with a partition $$\{A_i: i\in I\}$$ of $$A$$, then we c
 * (A) $$x\mathscr R y$$ iff $$x$$ divides $$y$$
 * (B) $$x\mathscr R y$$ iff $$x-y$$ is even
 * (C) $$x\mathscr R y$$ iff $$x-y$$ is odd
-<body>
-<center>
-<button class="collapsible">answer for (A)</button>
-<div class="content">
-  <p>
+<details>
+  <summary>See answer for (A).</summary>
   reflexive and transitive, but not symmetric
-  </p>
-</div>
-<button class="collapsible">answer for (B)</button>
-<div class="content">
-  <p>
+</details>
+<details>
+  <summary>See answer for (B).</summary>
   reflexive, symmetric, and transitive
-  </p>
-</div>
-<button class="collapsible">answer for (C)</button>
-<div class="content">
-  <p>
+</details>
+<details>
+  <summary>See answer for (C).</summary>
   symmetric but not reflexive or transitive
-  </p>
-</div>
-</center>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-</body>
-
-<br/>
+</details>
 
 
 
