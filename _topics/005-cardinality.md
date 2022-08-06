@@ -85,6 +85,7 @@ Intuitively, it makes sense that you should be able to by just grabbing one elem
 Since we are doing this mathematically, we don't have to be limited by finite time either, we can just keep deciding which element is the billionth, which is the billionth-and-first, and so on.  However, some sets are so big that this simply is mathematically impossible, no matter how long you are counting for.
 
 **Example:** The open interval $$(0,1)$$ is uncountable.  To show this, we use the famous **Cantor diagonalization** argument.  We will assume that we have counted it and arrive at a contradiction.  Since we are assuming we have counted it, we can enumerate $$(0,1) = \{x_1,x_2,x_3,\dots\}$$ for some sequence of real numbers $$x_1,x_2,x_3,\dots$$.  Now let's write these all out in their decimal expansions
+
 $$\begin{align*}
 x_1 &= 0.d_{11}d_{12}d_{13}d_{14}d_{15}\dots\\
 x_2 &= 0.d_{21}d_{22}d_{23}d_{24}d_{25}\dots\\
