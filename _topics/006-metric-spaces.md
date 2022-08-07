@@ -53,7 +53,7 @@ $$
 $$
 d(x,y) = \left\lbrace\begin{array}{cc}
 0 & x=y,\\
-p^{-\max_k\{p^k \vert (x-y)\}}  & x\neq y.
+p^{-\max_k\{k: p^k\ \vert\ (x-y)\}}  & x\neq y.
 \end{array}\right.
 $$
 
