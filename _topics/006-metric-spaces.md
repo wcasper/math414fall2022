@@ -26,7 +26,7 @@ A set $$X$$ endowed with a metric is called a **metric space**.
 
 ### Examples of metric spaces
 
-**Example 1:** Our first example is the real line $$\mathbb R$$ with the metric $$d(x,y) = |x-y|$$.  It is easy to see that all three properties a metric are satisfied, making $$\mathbb R$$ into a metric space.  More generally the usual notice of distance in $$\mathbb R^n$$ 
+**Example 1:** Our first example is the real line $$\mathbb R$$ with the metric $$d(x,y) = \vert x-y\vert$$.  It is easy to see that all three properties a metric are satisfied, making $$\mathbb R$$ into a metric space.  More generally the usual notice of distance in $$\mathbb R^n$$ 
 
 $$d(x,y) = \sqrt{(x_1-y_1)^2 + (x_2-y_2)^2 + \dots + (x_n-y_n)^2}$$
 
@@ -36,7 +36,7 @@ for $$x = (x_1,x_2,\dots,x_n)$$ and $$y = (y_1,y_2,\dots,y_n)$$ defines a metric
 
 $$d(z_1,z_2) = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2},\quad z_i = x_i + iy_i$$
 
-makes the complex numbers into a metric space.  In terms of the absolute value of complex numbers, we can rewrite this as $$d(z_1,z_2) = |z_1-z_2|$$, paralleling the usual metric on $$\mathbb R$$.
+makes the complex numbers into a metric space.  In terms of the absolute value of complex numbers, we can rewrite this as $$d(z_1,z_2) = \vert z_1-z_2\vert$$, paralleling the usual metric on $$\mathbb R$$.
 
 **Example 3:** Let $$X$$ be a set.  The **discrete metric** on $$X$$ is defined to be
 
@@ -53,14 +53,14 @@ $$
 $$
 d(x,y) = \left\lbrace\begin{array}{cc}
 0 & x=y,\\
-p^{-\max_k\{p^k | (x-y)\}}  & x\neq y.
+p^{-\max_k\{p^k \vert (x-y)\}}  & x\neq y.
 \end{array}\right.
 $$
 
 This unusual metric is particularly interesting and plays a central role in analytic number theory.
 
 **Question:** Which of the following functions are metrics on $$\mathbb R$$.
-* (A) $$d(x,y) = \frac{|x-y|}{1 + |x-y|}$$
+* (A) $$d(x,y) = \frac{\vert x-y\vert }{1 + \vert x-y\vert }$$
 * (B) $$d(x,y) = (x-y)^2$$
 
 
