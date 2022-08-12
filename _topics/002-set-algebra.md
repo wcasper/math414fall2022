@@ -79,7 +79,7 @@ $$\left(\bigcup_{i\in I} A_i\right)' =  \bigcap_{i\in I} A_i'\quad\text{and}\qua
 
 We can take the product of a collection of several sets
 
-$$A_1\times A_2\times\dots A_n = \{(a_1,a_2,\dots,a_n): a_j\in A_j\ \forall 1\leq j\leq n\}.$$
+$$A_1\times A_2\times\dots \times A_n = \{(a_1,a_2,\dots,a_n): a_j\in A_j\ \forall 1\leq j\leq n\}.$$
 
 We can even do this for an arbitrary collection of sets
 
