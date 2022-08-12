@@ -51,7 +51,7 @@ $$
 
 $$d(f,g) = \sup_{t\in [0,1]} |f(t)-g(t)|.$$
 
-**Example 5:** Let $$p$$ be a prime number.  The **p-adic metric** on $$\mathbb Z$$ is defined by
+**Example 5:** Let $$p$$ be a prime number.  The **p-adic metric** on $$\mathbb Q$$ is defined by
 
 $$
 d(x,y) = \left\lbrace\begin{array}{cc}
