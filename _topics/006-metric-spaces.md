@@ -47,8 +47,11 @@ d(x,y) = \left\lbrace\begin{array}{cc}
 \end{array}\right.
 $$
 
+**Example 4:** Let $$X$$ be the set of continuous, real-valued functions on the closed interval $$[0,1]$$.  The **uniform metric** on $$X$$ is
 
-**Example 4:** Let $$p$$ be a prime number.  The **p-adic metric** on $$\mathbb Z$$ is defined by
+$$d(f,g) = \sup_{t\in [0,1]} |f(t)-g(t)|.$$
+
+**Example 5:** Let $$p$$ be a prime number.  The **p-adic metric** on $$\mathbb Z$$ is defined by
 
 $$
 d(x,y) = \left\lbrace\begin{array}{cc}
