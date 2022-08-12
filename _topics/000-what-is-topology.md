@@ -12,6 +12,10 @@ However, no amount of squeezing, pulling, or massaging will allow us to transfor
 Often this comes down to showing that two different topological spaces have different topological properties.
 
 **Question:** Which of the following properties are *topological properties* of a surface (such as a sphere, cube, or torus), meaning that they don't change even if we change the shape by squeezing, pulling and massaging it?
+* (A) The surface area
+* (B) The number of corners
+* (C) The number of holes
+
 <details>
   <summary>
   Reveal answer for (A).
