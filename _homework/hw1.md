@@ -21,6 +21,8 @@ $$(x_1,y_1)\sim (x_2,y_2)\ \ \Leftrightarrow\ \ \exists \lambda\in\mathbb R\ \te
 
 * (A) Prove that $$\sim$$ is an equivalence relation.
 * (B) Give an explicit description of the set $$\mathbb P^1(\mathbb R)$$ of equivalence classes of $$\sim$$.  This is called the **real projective line**.
+* (C) Define a function which is a bijection from $$\mathbb P^1(\mathbb R)$$ to the unit circle
+$$S^1 = \{(x,y)\in\mathbb R^2: x^2 + y^2 = 1\}.$$
 
 **Problem 3:** Let $$X$$ be any infinite set and let $$a$$ be an element not in $$X$$.  Prove that $$X\cup \{a\}$$ has the same cardinality as $$X$$.
 
