@@ -15,7 +15,7 @@ I obtained concurrently a B.S. in Mathematics, a B.S. in Physics, and a M.S. in 
 
 
 
-My research focuses on applications of algebra and algebraic geometry to various problems in pure and applied mathematics. Specific research interests include orthogonal polynomials, integrable systems, spectral theory of integral and differential operators, and noncommutative crepant resolutions. Additionally, his research includes work in computational fluid dynamics and high performance computing.
+My research focuses on applications of algebra and algebraic geometry to various problems in pure and applied mathematics. Specific research interests include orthogonal polynomials, integrable systems, spectral theory of integral and differential operators, and noncommutative crepant resolutions. Additionally, my research includes work in computational fluid dynamics and high performance computing.
 
 ### Past/Current Research Projects with Students (as of 2021)
 * Exploring maximal cliques in derangement graphs with connections to orthogonal Latin squares
