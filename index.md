@@ -21,7 +21,7 @@ title: Math 414 Topology
 
 **Zoom number for remote office hours:** <a target="_parent" href="https://fullerton.zoom.us/j/9339191166">9339191166</a>
 
-**Syllabus:** <a target="_parent" href="syllabus.html">Course syllabus (link)</a>
+**Syllabus:** <a target="_parent" href="extras/syllabus.html">Course syllabus (link)</a>
 
 **First steps**
 
