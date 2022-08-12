@@ -11,7 +11,7 @@ permalink: /instructor/
 * Webpage: [caspermath.com](https://www.caspermath.com) (Links to an external site.)
 
 ### About Me
-I obtained concurrently a B.S. in Mathematics, a B.S. in Physics, and a M.S. in Mathematics from North Dakota State University in 2010.  Following this, I did a stint at Los Alamos National Lab (LANL) as a post-baccalaureate researcher before continuing on to a graduate program at the University of Washington in Seattle (UW), while continuing research at LANL during summers.  After obtaining my Ph.D. in Mathematics from UW in 2017, I spent three years as a post-doc at Louisiana State University and joint CSUF in 2020.
+I obtained concurrently a B.S. in Mathematics, a B.S. in Physics, and a M.S. in Mathematics from North Dakota State University in 2010.  Following this, I did a stint at Los Alamos National Lab (LANL) as a post-baccalaureate researcher before continuing on to a graduate program at the University of Washington in Seattle (UW), while continuing research at LANL during summers.  After obtaining my Ph.D. in Mathematics from UW in 2017, I spent three years as a post-doc at Louisiana State University and joined CSUF in 2020.
 
 
 
