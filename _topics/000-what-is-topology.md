@@ -37,6 +37,9 @@ Often this comes down to showing that two different topological spaces have diff
 
 <br/>
 
-In this class, we will be mostly concerned with *point set topology*, which focuses on local properties of different shapes and have strong relationships with topics in real analysis.  For example, a point at the center of the letter *X* is somehow very different from the point at the center *Y*.  For this reason, the letters *X* and *Y* are not homeomorphic.  Point set topology works to understand this by understanding what each letter looks like "close to", or in a **neighborhood** of the point.  In this way a notion of what points are close together, or what constitutes a neighborhood, is the key idea in the definition of a **topological space**.  Once we decide what the neighborhoods (also called **open sets**) are, we can understand what it means for functions between topological spaces to be **continuous**.  
+In this class, we will be mostly concerned with *point set topology* (also known as *general topology*), which focuses on the *foundational* properties of topology:  open sets; continuity; connectedness; compactness; and dimension, that more advanced topological subjects (such as algebraic topology and low-dimensional topology) are built upon.
+By its nature, point set topology is motivated by, and thus has strong connections with, fundamental ideas in real analysis.
+
+For a very concrete example, consider the following.  A point at the center of the letter *X* is somehow very different from the point at the center *Y*.  For this reason, the letters *X* and *Y* are not homeomorphic.  Point set topology works to understand this by understanding what each letter looks like "close to", or in a **neighborhood** of the point.  In this way a notion of what points are close together, or what constitutes a neighborhood, is the key idea in the definition of a **topological space**.  Once we decide what the neighborhoods (also called **open sets**) are, we can understand what it means for functions between topological spaces to be **continuous**.  
 
 
