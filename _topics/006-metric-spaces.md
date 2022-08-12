@@ -65,6 +65,7 @@ This unusual metric is particularly interesting and plays a central role in anal
 **Question:** Which of the following functions are metrics on $$\mathbb R$$.
 * (A) $$d(x,y) = \frac{\vert x-y\vert }{1 + \vert x-y\vert }$$
 * (B) $$d(x,y) = (x-y)^2$$
+* (C) $$d(x,y) = 0$$
 
 
 <details>
@@ -74,6 +75,10 @@ This unusual metric is particularly interesting and plays a central role in anal
 <details>
   <summary>Answer for (B).</summary>
   This is a not a metric.  It fails to satisfy the triangle inequality.  Can you show this?
+</details>
+<details>
+  <summary>Answer for (C).</summary>
+  This is a not a metric because it fails to satisfy the property $$d(x,y)=0\Leftrightarrow x=y$$
 </details>
 
 
