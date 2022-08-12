@@ -27,8 +27,8 @@ My research focuses on applications of algebra and algebraic geometry to various
 ### My Publications (as of 2022)
 
 * [The matrix Bochner problem](https://arxiv.org/abs/1803.04405) <br/> American J. Mathematics (2022)
-* [Reflective prolate-spheroidal operators and the adelic Grassmannian](https://arxiv.org/abs/2003.11616) </br> Communications in Pure and Applied Mathematics (2022)
-* [Algebras of commuting differential operators for integral kernels of Airy type](https://arxiv.org/abs/2112.11639) </br> Operator Theory: Advances and Applications (2022)
+* [Reflective prolate-spheroidal operators and the adelic Grassmannian](https://arxiv.org/abs/2003.11616) <br/> Communications in Pure and Applied Mathematics (2022)
+* [Algebras of commuting differential operators for integral kernels of Airy type](https://arxiv.org/abs/2112.11639) <br/> Operator Theory: Advances and Applications (2022)
 * [Bivariate cont. q-Hermite polynomials and quantum Serre relations](https://arxiv.org/abs/2002.07895) <br/>  J. Algebra Appl. (2020)
 * [Reflective prolate-spheroidal operators and the KP/KdV equations](https://www.pnas.org/content/116/37/18310) <br/>  Proc. Natl. Acad. of Sci. USA (2019)
 * [Integral operators, bispectrality and growth of Fourier algebras](https://doi.org/10.1515/crelle-2019-0031) <br/>  J. Reine Angew. Math "Crelle's Journal" (2019)
