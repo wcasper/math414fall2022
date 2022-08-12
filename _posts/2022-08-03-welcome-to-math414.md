@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Math 412!"
+title:  "Welcome to Math 414!"
 ---
 Welcome to Math 414!  In this class, we will learn about *topological spaces* and *metric spaces*, sets of points where there is a notion of "nearness" and "distance", respectively.  We will learn about the nice functions on these spaces, called *continuous functions*, and other properties of topological spaces such as connectedness and compactness.  We will also cover *function spaces*.
 
