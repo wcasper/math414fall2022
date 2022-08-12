@@ -15,7 +15,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 **Problem 1:**  Remember that two topological spaces are the same, what we call **homeomorphic** if you can stretch and squeeze one into the shape of the other.  The letters of the alphabet provide interesting examples of topological spaces.  Partition the set of capital letters into subsets consisting of letters which are homeomorphic.
 
-**Problem 2:** Let $$X= \mathbb R^2\diff\{(0,0)\}$$ and consider the relation $$\sim$$ on $$X$$ defined by
+**Problem 2:** Let $$X= \mathbb R^2\backslash\{(0,0)\}$$ and consider the relation $$\sim$$ on $$X$$ defined by
 
 $$(x_1,y_1)\sim (x_2,y_2)\ \ \Leftrightarrow\ \ \exists \lambda\in\mathbb R\ \text{s.t.}\ (x_1,y_1) = (\lambda x_2,\lambda y_2).$$
 
