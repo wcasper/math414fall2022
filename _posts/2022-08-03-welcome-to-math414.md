@@ -7,7 +7,7 @@ Welcome to Math 414!  In this class, we will learn about *topological spaces* an
 
 ## First steps
 
-Please familiarize yourself with the [syllabus (link)](https://wcasper.github.io/math414fall2022/syllabus) and the Canvas site for this course, starting with the [Orientation Module (link)](https://csufullerton.instructure.com/courses/3344572/modules/8051367).
+Please familiarize yourself with the [syllabus (link)](https://wcasper.github.io/math414fall2022/extras/syllabus) and the Canvas site for this course, starting with the [Orientation Module (link)](https://csufullerton.instructure.com/courses/3344572/modules/8051367).
 
 Please reach out as soon as possible if you have any questions or concerns.
 
