@@ -1,0 +1,20 @@
+---
+layout: page
+title: Test script
+---
+
+<head>
+<meta charset='utf-8'>
+<title>I Can Click A Rainbow</title>
+</head>
+<body>
+<button id='button'>click me</button>
+<script src='main.js'></script>
+</body>
+
+
+
+
+
+
+
