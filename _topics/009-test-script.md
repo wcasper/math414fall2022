@@ -10,12 +10,12 @@ title: Test script
 </head>
 <body>
 <button id='button'>click me</button>
+<div id="container">
+</div>
 <script src='main.js'></script>
 </body>
 
 
-<div id="container">
-</div>
 
 
 
