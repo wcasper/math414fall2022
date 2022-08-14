@@ -151,4 +151,45 @@ Please contact the following if you have:
 If you require accommodations for religious or other reasons, please email the instructor.
 
 
+## President's Directive & Health and Safety Guidelines
+Cal State Fullerton (CSUF) is actively working to maintain the safety of our campus community in
+response to COVID-19. To stay current with information, please visit CSUF's Titan's Return: COVID
+Recovery website. Please review the FAQs to help answer any of your questions. Below are requirements
+to review prior to our first-class session.
+* Read President's Directive No. 22 -- COVID 19: Mitigation Measures and Guidelines, which outlines
+mitigation measures you are required to take, including use of face coverings, re-entry and surveillance
+testing, physical distancing/barrier requirements, case reporting, and other measures. Please read
+[President's Directive No. 22](http://coronavirus.fullerton.edu/messages/presidents-directive-no-22/).
+* Review the Titans Return: COVID-19 Recovery website. There are important messages regarding the
+vaccine requirement, surveillance and testing information, as well as campus updates and messages
+from the Dean of Students Office that are important to review.
+
+In addition, CSUF requests that students who tests positive for COVID-19 or become aware that they may
+have been in close contact with someone who either has tested positive for or is suspected to have COVID19 report the positive result or exposure using the CSUF COVID-19 Self-Reporting Form. CSUF's
+Infectious Diseases Response Team reviews and verifies COVID-19 confirmed cases and responds to
+concerns from the campus community on COVID-19. Click here to report COVID-19 cases or exposure.
+
+Prior to arriving on campus and before entering class, you should conduct a personal health screening and
+self-monitor for fever, cough, shortness of breath, or other symptoms of respiratory illness. If you are
+experiencing any of these symptoms, you should stay home and notify me of your absence. I will work
+with you to address any COVID-19 related impacts to your participation in and completion of this
+course.
+
+Before entering the classroom, you should wash/sanitize your hands and have your face covering on. While
+in class, you are required to:
+* Sit in your designated seat;
+* Wear your facial covering that covers both the nose and mouth (e.g., masks or face shields);
+* Always cough or sneeze into your elbow or tissue;
+* Use the materials provided to clean your desk and chair before and after use, and;
+Office of the Vice President for Student Affairs
+800 N. State College Blvd., Fullerton, CA 92831 / T 657-278-3221 / F 657-278-5300
+THE CALIFORNIA STATE UNIVERSITY
+Bakersfield / Channel Islands / Chico / Dominguez Hills / East Bay / Fresno / Fullerton / Humboldt / Long Beach / Los Angeles / Maritime Academy
+Monterey Bay / Northridge / Pomona / Sacramento / San Bernardino / San Diego / San Francisco / San Jose / San Luis Obispo / San Marcos / Sonoma / Stanislaus
+* Adhere to other health and safety protocols and directives for your specific classroom, lab, studio,
+and campus.
+Students who do not follow these health and safety requirements may be reminded of the need to adhere to
+those measures. Failure to comply may constitute a violation of campus policy and may result in a referral
+the Office of Student Conduct. Thank you for your cooperation and assisting in the University's efforts to
+keep our community safe.
 
