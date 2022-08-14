@@ -9,7 +9,9 @@ title: Test script
 <title>I Can Click A Rainbow</title>
 </head>
 <body>
-<button id='button'>click me</button>
+<button-85 id='button'>click me</button-85>
+
+
 <div id="container">
 </div>
 <script src='main.js'></script>
