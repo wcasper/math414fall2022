@@ -9,7 +9,6 @@ Notes and highlights from lecture
 
 * Functions
 * Relations
-* Cardinality
 
 ## Reading assignments
 
@@ -19,7 +18,6 @@ Notes and highlights from lecture
 ## Today's topics
 * <a target="_parent" href="https://wcasper.github.io/math414fall2022/topics/003-functions.html">Functions (link)</a>
 * <a target="_parent" href="https://wcasper.github.io/math414fall2022/topics/004-relations.html">Relations (link)</a>
-* <a target="_parent" href="https://wcasper.github.io/math414fall2022/topics/005-cardinality.html">Cardinality (link)</a>
 
 ## Additional resources
 
