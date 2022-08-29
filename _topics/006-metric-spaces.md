@@ -61,7 +61,7 @@ p^{-\nu_p(x-y)}  & x\neq y.
 \end{array}\right.
 $$
 
-where here $$\nu_p: \mathbb Z\diff\{0\}\rightarrow\mathbb Z$$ is defined by
+where here $$\nu_p: \mathbb Z\backslash\{0\}\rightarrow\mathbb Z$$ is defined by
 
 $$\nu_p(z) = k,\ z = p^k\frac{a}{b},\ \text{with $a,b\in\mathbb Z$ both not divisible by $p$}.$$
 
