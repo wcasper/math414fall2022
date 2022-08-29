@@ -18,7 +18,8 @@ $$d(x,y)\leq d(x,z) + d(z,y).$$
 Putting these three properties together, we arrive at the definition of a metric.
 
 **Definition:** Let $$X$$ be a set.  A **metric** is a function $$d: X\times X\rightarrow\mathbb R$$ satisfying the following three properties:
-* (i)   $$d(x,y)\geq 0$$ and $$d(x,y) = 0$$ if and only if $$x=y$$;
+* (i)   $$d(x,y)\geq 0$$ (*positivity*);
+* (i)   $$d(x,y) = 0$$ if and only if $$x=y$$ (*non-degeneracy*);
 * (ii)  $$d(x,y) = d(y,x)$$ (*symmetry*);
 * (iii) $$d(x,y)\leq d(x,z) + d(z,y)$$ (*triangle inequality*).
 
