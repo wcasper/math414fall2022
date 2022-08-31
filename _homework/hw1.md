@@ -18,7 +18,7 @@ Note: we don't yet have the tools to make this completely rigorous, so this ques
 
 **Problem 2:** Let $$X= \mathbb R^2\backslash\{(0,0)\}$$ and consider the relation $$\sim$$ on $$X$$ defined by
 
-$$(x_1,y_1)\sim (x_2,y_2)\ \ \Leftrightarrow\ \ \exists \lambda\in\mathbb R\ \text{s.t.}\ (x_1,y_1) = (\lambda x_2,\lambda y_2).$$
+$$(x_1,y_1)\sim (x_2,y_2)\ \ \Leftrightarrow\ \ \exists \lambda\in (0,\infty)\ \text{s.t.}\ (x_1,y_1) = (\lambda x_2,\lambda y_2).$$
 
 * (A) Prove that $$\sim$$ is an equivalence relation.
 * (B) Give an explicit description of the set $$\mathbb P^1(\mathbb R)$$ of equivalence classes of $$\sim$$.  This is called the **real projective line**.
