@@ -65,7 +65,7 @@ In the special case of a metric space, we can characterize open sets even more s
 
 Of course, not all sets in a metric space need to be open.  Sometimes it is useful to consider the "open part" of a subset $$A\subseteq X$$, which we call the interior.
 
-**Definition:** The **interior** $$\int(A)$$ of a subset $$A\subseteq X$$ is the set of all points $$x\in A$$ for which there is a ball centered at $$x$$ contained in $$A$$, ie.
+**Definition:** The **interior** $$\text{int}(A)$$ of a subset $$A\subseteq X$$ is the set of all points $$x\in A$$ for which there is a ball centered at $$x$$ contained in $$A$$, ie.
 
 $$\text{int}(A) = \{x\in A:\ \ \exists r>0\ \text{s.t.}\ B_r(x)\subseteq A\}.$$
 
