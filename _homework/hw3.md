@@ -16,15 +16,18 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 **Problem 1:** 
 Let $$X$$ be a metric space.  Show that the complement of any finite set of points in $$X$$ must be open.
 
-**Problem 2:**  
-
-Prove that the interior of the Cantor set is empty.
-
-**Problem 3:**
+**Problem 2:**
 
 Prove the following properties of interiors.
 
 * (A) $$\text{int}(A)\cup \text{int}(B) \subseteq \text{int}(A\cup B)$$
 * (B) $$\text{int}(A)\cap \text{int}(B) = \text{int}(A\cap B)$$
 
+**Problem 3:**  
 
+Let $$X=\mathbb R^4$$ with the Euclidean topology and define
+
+$$U = \{(a,b,c,d)\in X: ad-bc \neq 0\}.$$
+
+* (A) Prove that $$U$$ is open.
+* (B) Determine the closure $$\overline{U}$$ of $$U$$.
