@@ -31,7 +31,7 @@ Prove that $$A$$ cannot be in the image of $$f$$ and therefore $$f$$ is not a bi
 Let $$X$$ be a non-empty set and suppose that $$d: X\times X\rightarrow \mathbb R$$ is a function satisfying the two conditions
 
 * (non-degeneracy) $$d(x,y) = 0\Leftrightarrow x = y$$ for all $$x,y\in X$$
-* (triangle inequality) $$d(x,y) \leq d(x,z) + d(y,z)$$ for all $$x,y\in X$$
+* (triangle inequality) $$d(x,y) \leq d(x,z) + d(y,z)$$ for all $$x,y,z\in X$$
 
 Show that $$d$$ automatically satisfies *positivity* and *symmetry* and thus must be a metric on $$X$$.
 
