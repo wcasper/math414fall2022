@@ -25,7 +25,7 @@ Note the use of $$\leq$$ in place of $$\lt$$ for closed balls.
 
 **Example 3:** The closed ball $$\overline B_r(x_0)$$ is a closed set.
 
-This is not immediately apparent at all.  To show it, we must prove that the complement $$\overline B_r(x_0)'$$ is an open set.  To do so, it suffices to show that if $$x\notin $$\overline B_r(x_0)$$ then there exists $$\epsilon > 0$$ such that $$B_r(x_0)\cap B_\epsilon(x) = \varnothing$$.  Take $$\epsilon = d(x_0,x)-r$$.  Then for any $$y\in B_\epsilon(x)$$, the triangle inequality says
+This is not immediately apparent at all.  To show it, we must prove that the complement $$\overline B_r(x_0)'$$ is an open set.  To do so, it suffices to show that if $$x\notin \overline B_r(x_0)$$ then there exists $$\epsilon > 0$$ such that $$B_r(x_0)\cap B_\epsilon(x) = \varnothing$$.  Take $$\epsilon = d(x_0,x)-r$$.  Then for any $$y\in B_\epsilon(x)$$, the triangle inequality says
 
 $$d(x_0,x) \leq d(x_0,y) + d(x,y) < d(x_0,y) + \epsilon$$
 
