@@ -59,7 +59,7 @@ If we have a metric space $$X$$ which is not complete, we can always find a spac
 
 <details>
   <summary>Yes, totes.</summary>
-  That's right!  In particular, a Cauchy sequence $$\{x_n\}$$ for the discrete metric will necessarily be constant for large $$n$$.
+  That's right!  In particular, a Cauchy sequence for the discrete metric will necessarily be eventually constant.
 </details>
 <details>
   <summary>No way.</summary>
