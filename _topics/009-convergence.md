@@ -36,6 +36,7 @@ $$\forall\ \epsilon > 0,\ \ \exists\ N>0,\ \text{such that}\ \ m,n\geq N\Rightar
 In other words, a Cauchy sequence is a sequence whose terms get closer and closer to one-another as the indices increase.
 
 **Theorem:** If $$\{x_n\}$$ is a convergent sequence, then $$\{x_n\}$$ is Cauchy.
+
 **Proof:** Suppose that $$x_n\rightarrow x$$.  Then for all $$\epsilon>0$$ there exists $$N$$ such that $$n\geq N$$ implies $$d(x_n,x) < \epsilon/2$$.  Thus by the triangle inequality, for $$m,n\geq N$$ we have
 
 $$d(x_m,x_n)\leq d(x_m,x) + d(x_n,x)\leq \epsilon/2 + \epsilon/2 = \epsilon.$$
