@@ -40,10 +40,10 @@ Two very important special cases are
 * the space $$C(X,\mathbb R)$$ of bounded, continuous real-valued functions on $$X$$;
 * the space $$C(X,\mathbb C)$$ of bounded, continuous complex-valued functions on $$X$$.
 
-Note: here the metric defined on $$\mathbb R$$ or $$\mathbb C$$ is defined by $$d(z,w) = |z-w|$$.
+Note: here the metric defined on $$\mathbb R$$ or $$\mathbb C$$ is defined by $$d(z,w) = \lvert z-w\rvert $$.
 Here, we can characterize bounded more simply, in a very intuitive fashion.
 
-**Lemma:** A function $$f: X\rightarrow\mathbb R$$ is bounded if and only if there exists $$k>0$$ such that $$|f(x)|\leq k$$ for all $$x\in X$$.
+**Lemma:** A function $$f: X\rightarrow\mathbb R$$ is bounded if and only if there exists $$k>0$$ such that $$\lvert f(x)\rvert \leq k$$ for all $$x\in X$$.
 
 Both the spaces $$C(X,\mathbb R)$$ and $$C(X,\mathbb C)$$ are *vector spaces*.
 Furthermore, the vector spaces have a notion of the *length* of a vector in a way which defines the metric.
