@@ -51,8 +51,8 @@ Vector spaces with way to define lengths of vectors are called *normed linear sp
 
 **Definition:** A (real or complex) **normed linear space** is a (real or complex) vector space $$V$$ endowed with a real-valued function $$\lVert\cdot\rVert: X\rightarrow\mathbb R$$ satisfying the following properties
 * $$\lVert x\rVert \geq 0$$ and $$\lVert x\rVert = 0\Leftrightarrow x = 0$$
-* $$\lVert x + y rVert \leq \lVert x\rVert + \lVert y\rVert$$
-* $$\lVert \alpha x rVert\leq \lvert \alpha\rvert \ \lVert x rVert$$
+* $$\lVert x + y \rVert \leq \lVert x\rVert + \lVert y\rVert$$
+* $$\lVert \alpha x \rVert\leq \lvert \alpha\rvert \ \lVert x \rVert$$
 
 **Theorem:** The sets $$\mathcal C(X,\mathbb R)$$ and $$\mathcal C(X,\mathbb C)$$ are both normed vector spaces with norm defined by
 
