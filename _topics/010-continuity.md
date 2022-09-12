@@ -34,6 +34,17 @@ We can characterize continuity in two important ways.
 
 **Theorem:** A function $$f: X\rightarrow Y$$ is continuous if and only if $$f^{-1}(V)$$ is open for all open subsets $$V\subseteq Y$$.
 
+**Question:** Let $$X$$ and $$Y$$ be metric spaces.  Is the following TRUE or FALSE?  If $$f:X\rightarrow Y$$ is a continuous function, then the image $$f(U)$$ of any open set $$U$$ is also open.
+
+<details>
+  <summary>True.</summary>
+  Careful, consider for example a constant function.
+</details>
+<details>
+  <summary>False.</summary>
+  That's right!  Can you think of an explicit counter-example?
+</details>
+
 
 ### Uniform continuity
 
