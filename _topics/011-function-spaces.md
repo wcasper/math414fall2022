@@ -24,9 +24,9 @@ $$d(x,y)\leq k\ \forall x,y\in A.$$
 
 Armed with this definition, we consider the sets
 
-$$\mathcal B(X,Y) = \{f: X\rightarrow Y |\ \text{$f$ is a bounded function}\}.$$
+$$\mathcal B(X,Y) = \{f: X\rightarrow Y \vert \ \text{$f$ is a bounded function}\}.$$
 
-$$\mathcal C(X,Y) = \{f: X\rightarrow Y |\ \text{$f$ is a bounded continuous function}\}.$$
+$$\mathcal C(X,Y) = \{f: X\rightarrow Y \vert \ \text{$f$ is a bounded continuous function}\}.$$
 
 **Theorem:** The function $$d: V\times V\rightarrow\mathbb R$$ defined by
 
@@ -52,11 +52,11 @@ Vector spaces with way to define lengths of vectors are called *normed linear sp
 **Definition:** A (real or complex) **normed linear space** is a (real or complex) vector space $$V$$ endowed with a real-valued function $$\lVert\cdot\rVert: X\rightarrow\mathbb R$$ satisfying the following properties
 * $$\lVert x\rVert \geq 0$$ and $$\lVert x\rVert = 0\Leftrightarrow x = 0$$
 * $$\lVert x + y rVert \leq \lVert x\rVert + \lVert y\rVert$$
-* $$\lVert \alpha x rVert\leq |\alpha|\ \lVert x rVert$$
+* $$\lVert \alpha x rVert\leq \lvert \alpha\rvert \ \lVert x rVert$$
 
 **Theorem:** The sets $$\mathcal C(X,\mathbb R)$$ and $$\mathcal C(X,\mathbb C)$$ are both normed vector spaces with norm defined by
 
-$$\lVert f\rVert = \sup_{x\in X} |f(x)|.$$
+$$\lVert f\rVert = \sup_{x\in X} \lvert f(x)\rvert.$$
 
 As we see, the metric on $$\mathcal C(X,\mathbb R)$$ is defined in terms of the norm by $$d(f,g) = \lVert f-g\rVert$$.
 In general, a normed vector space always inherets the structure of a metric space in this way.
@@ -98,7 +98,7 @@ In particular, this implies the following corollary.
 
 **Question:** Is the following sequence of functions in $$\mathcal C(X,\mathbb R)$$ a Cauchy sequence?
 
-$$f_n(x) = \left\lbrace\begin{array}{cc}1-n|x|, & |x|\leq 1/n\\0,& |x|> 1/n\end{array}\right.$$
+$$f_n(x) = \left\lbrace\begin{array}{cc}1-n\lvert x\rvert, & \lvert x\rvert \leq 1/n\\0,& \lvert x\rvert > 1/n\end{array}\right.$$
 
 <details>
   <summary>Solution.</summary>
