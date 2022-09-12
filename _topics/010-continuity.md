@@ -26,7 +26,8 @@ $$\forall\ \epsilon>0\ \ \exists\ \delta>0\ \ \text{such that}\ \ f(B_\delta(x_0
 
 We call $$f$$ **continuous** if it is continuous at every point in its domain.  This can be seen to be an obvious generalization of the notion of continuity from Calculus.
 
-In the special case that $$d_X(x_1,x_2) = d_Y(f(x_1),f(x_2))$$, the function $$f$$ is called an **isometry**.  Clearly, isometries are continuous and they can be thought of as maps which preserve distances.
+In the special case that $$d_X(x_1,x_2) = d_Y(f(x_1),f(x_2))$$, the function $$f$$ is called an **isometric embedding**.  If $$f$$ is bijective, it's called an **isometry**.  Clearly, isometries are continuous and they can be thought of as maps which preserve distances.
+In fact, two spaces which have isometries are in a strong sense "the same" as metric spaces.
 
 We can characterize continuity in two important ways.
 
