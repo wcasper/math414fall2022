@@ -90,7 +90,7 @@ Naturally, one may ask whether a particular normed vector space is complete.
 
 **Theorem:** Both $$\mathcal B(X,\mathbb R)$$ and $$\mathcal B(X,\mathbb C)$$ are Banach spaces.
 
-**Theorem:** Both $$\mathcal C(X,\mathbb R)$$ and $$\mathcal C(X,\mathbb C)$$ are closed subspaces of $$\mathcal B(X,\mathbb R)$$ and $$\mathcall B(X,\mathbb C)$$, and are therefore Banach spaces.
+**Theorem:** Both $$\mathcal C(X,\mathbb R)$$ and $$\mathcal C(X,\mathbb C)$$ are closed subspaces of $$\mathcal B(X,\mathbb R)$$ and $$\mathcal B(X,\mathbb C)$$, and are therefore Banach spaces.
 
 In particular, this implies the following corollary.
 
