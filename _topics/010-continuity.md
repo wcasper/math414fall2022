@@ -64,8 +64,31 @@ $$\forall\ \epsilon>0\ \ \exists\ \delta>0\ \ \text{such that for all $x_1,x_2\i
   Use the fact the a set is closed if and only if it's complement is open.
 </details>
 
+### Completions
 
+Given our notion of "good" maps between metric spaces, as shown above we can define a **completion** of a metric space, which adds in all the "missing" points which are limits of Cauchy sequences.
 
+**Definition:** Let $$X$$ be a metric space.  A **completion** of $$X$$ is a complete metric space $$\overline X$$ which contains $$X$$ as a dense subspace, satisfying the following property:
+* for every complete metric space $$Y$$ and uniformly continuous function $$f: X\rightarrow Y$$, there exists a unique function $$\overline f: \overline X\rightarrow Y$$ extending $$f$$.
 
+This definition is a bit confusing at first, but the next two lemmas show that (1) completions are essentially unique, and (2) if $$X$$ is complete, then it is its own completion.
+
+**Lemma:** If $$\overline X_1$$ and $$\overline X_2$$ are two different completions of $$X$$, then there exists an isometry $$f: \overline X_1\rightarrow\overline X_2$$.
+
+**Lemma:** If $$X$$ is complete, then $$X$$ is a completion of $$X$$.
+
+Lastly, we have a construction showing that completions always exist!  Our construction is remniscent of Cantor's construction of $$\mathbb R$$ as the completion of $$\mathbb Q$$.
+Start by considering the set $$X'$$ of all Cauchy sequences of elements of $$X$$.
+Define an equivalence relation $$\sim$$ on $$X'$$ by saying $$\{x_n\}\sim\{y_n\}$$ if and only if $$\lim_n d(x_n,y_n) = 0$$.
+The set $$\overline X$$ of all equivalence classes of elements of $$X'$$ has a metric defined by
+
+$$d([(x_n)],[(y_n)]) = \lim_n d(x_n,y_n),$$
+
+making $$\overline X$$ into a complete metric space.  Moreover, $$X$$ may be identified as the subset of $$\overline{X}$$ consisting of constant sequences.  With this identification, $$\overline{X}$$ is a completion of $$X$$.
+
+As a consequence, we can build some interesting new spaces which are constructed like the real numbers but which are very different.
+We simply start with a metric on the rational numbers other than the usual one and then take the completion.
+
+**Definition:** The **p-adic** numbers $$\mathbb Q_p$$ are a completion of the rational numbers with respect to the $$p$$-adic metric.
 
 
