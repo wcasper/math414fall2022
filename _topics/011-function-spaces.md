@@ -71,12 +71,12 @@ Such a question gets to the heart of many questions in analysis and there are ma
 
 The simplest form of convergence of functions is pointwise convergence.
 
-**Definition:** We say that a sequence of real-valued functions $$\{f_n\}$$ on a metric space $$X$$ converges **poinwise** to a function $$f: X\rightarrow R$$ if $$f_n(x)\rightarrow f(x)$$.  Equivalently, this says that for all $$\epsilon>0$$ and for all $$x\in X$$ there exists $$N\geq 0$$ such that $$n\geq N$$ implies $$|f_n(x)-f(x)|<\epsilon$$.
+**Definition:** We say that a sequence of real-valued functions $$\{f_n\}$$ on a metric space $$X$$ converges **poinwise** to a function $$f: X\rightarrow R$$ if $$f_n(x)\rightarrow f(x)$$.  Equivalently, this says that for all $$\epsilon>0$$ and for all $$x\in X$$ there exists $$N\geq 0$$ such that $$n\geq N$$ implies $$\lvert f_n(x)-f(x)\rvert <\epsilon$$.
 
 However, pointwise convergence tends to not be strong enough to guarantee to preserve any nice properties the original sequence of functions might have had.
 Instead, it is often necessary to consider stronger versions, such as uniform convergence.
 
-**Definition:** We say that a sequence of bounded, real-valued functions $$\{f_n\}$$ on a metric space $$X$$ converges **uniformly** to a function $$f: X\rightarrow R$$ if for all $$\epsilon>0$$ there exists $$N>0$$ such that $$n\geq N$$ implies $$|f_n(x)-f(x)|<\epsilon$$ for all $$x\in X$$.
+**Definition:** We say that a sequence of bounded, real-valued functions $$\{f_n\}$$ on a metric space $$X$$ converges **uniformly** to a function $$f: X\rightarrow R$$ if for all $$\epsilon>0$$ there exists $$N>0$$ such that $$n\geq N$$ implies $$\lvert f_n(x)-f(x)\rvert <\epsilon$$ for all $$x\in X$$.
 
 This second form says a lot more about the sequence, since it says we can choose an integer $$N$$ which works for all $$x\in X$$ simultaneously.
 For pointwise convergence, the value of $$N$$ can depend on both $$\epsilon$$ and the point $$x$$.
