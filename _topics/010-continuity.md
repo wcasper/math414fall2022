@@ -80,12 +80,12 @@ This definition is a bit confusing at first, but the next two lemmas show that (
 
 Lastly, we have a construction showing that completions always exist!  Our construction is remniscent of Cantor's construction of $$\mathbb R$$ as the completion of $$\mathbb Q$$.
 Start by considering the set $$X'$$ of all Cauchy sequences of elements of $$X$$.
-Define an equivalence relation $$\sim$$ on $$X'$$ by saying $$\{x_n\}\sim\{y_n\}$$ if and only if $$\lim_n d(x_n,y_n) = 0$$.
-The set $$\overline X$$ of all equivalence classes of elements of $$X'$$ has a metric defined by
+Define an equivalence relation $$\sim$$ on $$X''$$ by saying $$\{x_n\}\sim\{y_n\}$$ if and only if $$\lim_n d(x_n,y_n) = 0$$.
+The set $$X'$$ of all equivalence classes of elements of $$X'$$ has a metric defined by
 
 $$d([(x_n)],[(y_n)]) = \lim_n d(x_n,y_n),$$
 
-making $$\overline X$$ into a complete metric space.  Moreover, $$X$$ may be identified as the subset of $$\overline{X}$$ consisting of constant sequences.  With this identification, $$\overline{X}$$ is a completion of $$X$$.
+making $$X'$$ into a complete metric space.  Moreover, $$X$$ may be identified as the subset of $$X'$$ consisting of constant sequences.  With this identification, $$X'$$ is a completion of $$X$$.
 
 As a consequence, we can build some interesting new spaces which are constructed like the real numbers but which are very different.
 We simply start with a metric on the rational numbers other than the usual one and then take the completion.
