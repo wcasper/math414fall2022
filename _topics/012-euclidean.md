@@ -98,7 +98,7 @@ Leveraging Young's Inequality, we can prove Holder's inequality.
 
 Let $$p$$ and $$q$$ be conjugate exponents.  Then for all $$x,y\in \mathbb R^n$$, we have
 
-$$|x\cdot y| \leq \lVert x\rVert_p\lVert x\rVert_q
+$$\lvert x\cdot y\rvert \leq \lVert x\rVert_p\lVert x\rVert_q
 
 To prove this, follow the same idea as the proof of Cauchy-Schwartz.
 
