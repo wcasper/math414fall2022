@@ -86,7 +86,14 @@ How many homeomorphism classes are there?
 </details>
 
 
+### The Zariski topology
 
+One of the most interesting and useful topologies which is great departure from metric spaces is the **Zariski topology** on $$n$$-dimensional real space $$\mathbb R^n$$ or complex space $$\mathbb C^n$$.
+Here the open sets are specifically defined as complements of the zeros of collections of multivariate polynomials.
 
+**Example:** The subset $$U = \{(x,y,z)\in \mathbb R^3: x^2 + y^2 + z^2 \neq 1\}$$ is open in the Zariski topology, because it is the complement of the zero set of the polynomial $$x^2+y^2+z^2-1$$.
 
+**Example:** The complement of the singleton set $$\{(1,2,5)\}$$ is open in th Zariski topology, since this singleton set is the zero set of the collection of polynomials $$\{x-1,y-2,z-5\}$$.
+
+The Zariski topology plays a central role in the geometric point of view of abstract algebra, what mathematicians call *algebraic geometry*.  Using the Zariski topology, commutative rings coming from abstract algebra can be transformed into topological spaces.  Through this transformation, questions about algebraic properties of the ring are translated into questions about the geometry of the topological space!
 
