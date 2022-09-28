@@ -91,7 +91,7 @@ In contrast to limit points, we have isolated points.  These two flavors of poin
 
 **Definition:** A point $$x\in A$$ is an **isolated point** if there exists an open neighborhood of $$x$$ which contains no other point of $$A$$.
 
-**Theorem:** A set $$A$$ is the disjoint union of its set of isolated points and limit points.
+**Theorem:** A closed set $$A$$ is the disjoint union of its set of isolated points and limit points.
 
 Just like for metric spaces, we can define the *boundary* of a set.  Intuitively, these are the points which lie on the "edge" of both $$A$$ and $$A'$$.
 
@@ -99,6 +99,6 @@ Just like for metric spaces, we can define the *boundary* of a set.  Intuitively
 
 Any closed set is comprised of its interior points and its boundary points.
 
-**Theorem:** Let $$A$$ be a *closed* subset of $$X$$.  Then $$A$$ contains $$\partial A$$ and is in fact equal to the disjoint union of $$\text{int}(A)$$ and $$\partial A$$.
+**Theorem:** Let $$A$$ be a closed subset of $$X$$.  Then $$A$$ contains $$\partial A$$ and is in fact equal to the disjoint union of $$\text{int}(A)$$ and $$\partial A$$.
 
 
