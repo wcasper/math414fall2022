@@ -3,7 +3,7 @@ layout: page
 title: Topologies 
 ---
 
-**Additional reading:** Simmons 2.16
+**Additional reading:** Simmons 3.16
 
 ### Topological spaces
 

@@ -3,7 +3,7 @@ layout: page
 title: Topology Basics
 ---
 
-**Additional reading:** Simmons 2.17
+**Additional reading:** Simmons 3.17
 
 All the interesting properties that we discussed for sets in metric spaces, interiors, closures, limit points, and boundaries, can be extended to topological spaces.
 In fact, in many ways these definitions tend to be *simpler* because we have shed the bulky machinery of distances and open balls.
