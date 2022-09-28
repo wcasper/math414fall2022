@@ -45,7 +45,7 @@ Just like before, the compatibility of taking unions or intersections with remai
 
 **Definition:** Let $$A$$ be a subset of a topological space $$X$$.  The **closure** of $$A$$ is the intersection of all closed subsets of $$X$$ containing $$A$$:
 
-$$\overline{A} = \bigcap_{A\subseteq C \text{\ (closed) }\subseteq X} C.$$
+$$\overline{A} = \bigcap_{A\subseteq C \text{ (closed) }\subseteq X} C.$$
 
 If $$C\subseteq X$$ is the closure of $$A$$, then we say that $$A$$ is **dense in** $$C$$.  When $$C=X$$, we simply say that $$A$$ is **dense**.
 
