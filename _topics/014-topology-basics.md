@@ -67,7 +67,7 @@ As a consequence, we can immediately see several properties of closures
 We have shown that in a metric space, a singleton set $$\{x_0\}$$ is always closed.
 Is the same true for any arbitrary topological space?
 
-<details
+<details>
   <summary>Solution.</summary>
   No!  Consider for example the trivial topology.
 </details>
