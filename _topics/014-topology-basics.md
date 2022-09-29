@@ -61,7 +61,7 @@ As a consequence, we can immediately see several properties of closures
 **Corollary:**  Let $$A$$ and $$B$$ be subsets of a topological space $$X$$. Then
 * (A) $$\overline{\varnothing} = \varnothing$$ and $$\overline{X} = X$$
 * (B) $$\overline{A} = \overline{\overline{A}}$$
-* (C) $$\overline{A\cup B} = \overline{A\cup\overline B}$$
+* (C) $$\overline{A\cup B} = \overline{A\cup B}$$
 
 **Problem:**
 We have shown that in a metric space, a singleton set $$\{x_0\}$$ is always closed.
