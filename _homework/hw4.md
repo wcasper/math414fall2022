@@ -19,6 +19,11 @@ Show that $$\tau_1\cap\tau_2$$ is also a topology on $$X$$.
 
 **Problem 2:**
 
+Let $$X$$ be a topological space with topology $$\tau$$.
+
+* (a) Prove that the identity map on $$X$$ is continuous.
+* (b) Prove that if $$f: X\rightarrow X$$ and $$g: X\rightarrow X$$ are continuous functions, then the composition $$g\circ f$$ is also continuous.
+* (c) Let $$z\in X$$.  Show that the constant function $$f: X\rightarrow X$$ defined by $$f(x) = z$$ for all $$x\in X$$ is continuous.
 
 **Problem 3:**
 
