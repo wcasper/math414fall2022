@@ -40,7 +40,7 @@ If so, give an example and prove that the topology is the same.  If not, prove t
 
 **Problem 5:**
 
-Let $$X=\mathbb R$$ and let $$\tau$$ be the collection of subsets of $$X$$ determined by arbitrary unions of intervals of the form $$[a,b)$$ for real numbers $$a,b\in \mathbb{R}$$ with $$a < b$$.
+Let $$X=\mathbb R$$ and let $$\tau$$ be the collection of subsets of $$X$$ determined by arbitrary unions of intervals of the form $$[a,b)$$ for real numbers $$a,b\in \mathbb{R}$$ with $$a < b$$ (along with the empty set).
 
 * (A) Show that the intersection of two elements in $$\tau$$ must also be in $$\tau$$
 * (B) Use (A) to prove that the intersection of any finite number of elements in $$\tau$$ is also in $$\tau$$
