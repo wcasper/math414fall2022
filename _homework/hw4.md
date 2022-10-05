@@ -28,7 +28,7 @@ Let $$X$$ be a topological space with topology $$\tau$$.
 **Problem 3:**
 
 Let $$X$$ be a topological space and $$A\subseteq X$$.
-Recall that $$D(A)$$, the derived set of $$A$$, is the set of all limit points of $$X$$.
+Recall that $$D(A)$$, the derived set of $$A$$, is the set of all limit points of $$A$$.
 Prove, without using any special theorems from class, that $$\overline{A} = A\cup D(A).$$
 
 **Problem 4:**  
