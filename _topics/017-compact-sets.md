@@ -59,10 +59,13 @@ The original definition of compact we learn in calculus is *closed and bounded*.
 
 The fact that compact = closed and bounded in Euclidean space is an important result in real analysis called the **Heine-Borel Theorem**.  We will prove the Heine-Borel theorem below for $$\mathbb R$$, but for starters, we can prove a partial result in this direction by showing that compact subsets of a metric space are necessarily closed.
 
-**Theorem:** Let $$C$$ be a compact subset of a metric space $$X$$.  Then $$C$$ is closed.
+**Theorem:** Let $$C$$ be a compact subset of a metric space $$X$$.  Then $$C$$ is closed and bounded.
 **Proof:** Suppose that $$x_0\in C$$ is an accumulation point of $$C$$ which is not in $$C$$.  Consider the open cover of $$X$$ consisting of $$U_n = \{x_0\in C: d(x_0,x) > 1/n\}.$$
 Then since $$C$$ is compact, there is a finite subcover $$\{U_{n_k}: k = 1,2,\dots m\}$$ with $$n_1 < n_2 < \dots < n_m$$.  It follows that $$C = U_{n_m}$$ and therefore every element of $$C$$ is distance at least $$1/n_m$$ away from $$x_0$$.  Therefore $$B_{1/n_m}(x_0)\cap C = \varnothing$$, which is a contradiction.
 
+Next suppose that $$x_0\in C$$ and consider the open cover defined by $$\{B_n(x_0)\cap C: n\in\mathbb N\}.$$
+Since $$C$$ is compact, there is a finite subcover $$\{B_{n_k}(x_0): k=1,\dots, N\}$$ for some sequence $$n_1 < n_2 < \dots < n_N.$$
+In particular $$C = C\cap B_{n_N}(x_0)$$ so $$C\subseteq B_{n_N}(x_0)$$ making $$C$$ bounded.
 
 ### Finite intersection property
 
