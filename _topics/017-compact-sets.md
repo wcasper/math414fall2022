@@ -3,7 +3,7 @@ layout: page
 title: Compact sets
 ---
 
-**Additional reading:** Simmons 3.19
+**Additional reading:** Simmons 4.21
 
 From our previous experience in calculus, a subset of $$\mathbb R^n$$ is called *compact* if it is both closed and bounded.
 Compact sets play an important role, particularly in light of the **Extreme Value Theorem**, which says that a continuous function on a compact set has a global maximum and a global minimum.
