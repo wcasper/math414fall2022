@@ -16,11 +16,12 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 **Problem 1:**  
 
 Let $$X= [0,1]$$ be the subspace of $$\mathbb R$$ with the Euclidean topology.
+A **dyadic rational** is a rational number of the form $$a/2^k$$ for some integers $$a$$ and $$k$$.
 
-* (A) Prove that $$[0,2^{-k})$$ and $$(2^{-k},1]$$ are open subsets of $$X$$ for all $$k\geq 0$$.
+* (A) Prove that for any dyadic rational $$r\in (0,1)$$, the sets $$[0,r)$$ and $$(r,1]$$ are open subsets of $$X$$ for all $$k\geq 0$$.
 * (B) Prove that the collection
 
-$$\{[0,2^{-k}): k\in\mathbb N\}\cup \{(2^{-k},1]: k\in\mathbb N\}$$
+$$\{[0,r): r\in (0,1)\ \text{dyadic rational}\}\cup \{(r,1]: r\in (0,1)\ \text{dyadic rational}\}$$
 
 is a subbasis for the topology of $$X$$.
 
@@ -59,7 +60,7 @@ $$f:\prod_{i=1}^\infty X_i\rightarrow [0,1],\quad (x_1,x_2,x_3,\dots)\mapsto \su
 
 is bijective.
 
-* (C) Suppose that $$X_i$$ has the discrete topology for all $$i$$ and that $$\prod_{i=1}^\infty X_i$$ has the product topology.  Show that the preimages of the sets $$[0,2^{-k})$$ and $$(2^{-k},1]$$ are open for all $$k\in\mathbb N$$.
+* (C) Suppose that $$X_i$$ has the discrete topology for all $$i$$ and that $$\prod_{i=1}^\infty X_i$$ has the product topology.  Show that the preimages of the sets $$[0,r)$$ and $$(r,1]$$ are open for all dyadic rationals $$r\in (0,1)$$.
 
 * (D) Use (C) and Problem 2 to conclude that the function $$f$$ is continuous.
 
