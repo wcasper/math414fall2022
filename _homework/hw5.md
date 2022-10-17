@@ -18,7 +18,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 Let $$X= [0,1]$$ be the subspace of $$\mathbb R$$ with the Euclidean topology.
 A **dyadic rational** is a rational number of the form $$a/2^k$$ for some integers $$a$$ and $$k$$.
 
-* (A) Prove that for any dyadic rational $$r\in (0,1)$$, the sets $$[0,r)$$ and $$(r,1]$$ are open subsets of $$X$$ for all $$k\geq 0$$.
+* (A) Prove that for any dyadic rational $$r\in (0,1)$$, the sets $$[0,r)$$ and $$(r,1]$$ are open subsets of $$X$$.
 * (B) Prove that the collection
 
 $$\{[0,r): r\in (0,1)\ \text{dyadic rational}\}\cup \{(r,1]: r\in (0,1)\ \text{dyadic rational}\}$$
