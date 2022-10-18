@@ -85,7 +85,7 @@ However, we just learned that there is another way to put a topology on $$\mathb
 
 **Theorem:** The product topology on $$\mathbb R^n$$ is the same as the Euclidean topology on $$\mathbb R^n$$.
 
-**Proof:** To prove that two topologies $\tau_1$$ and $$\tau_2$$ on a set $$X$$ are the same, we need to show every open set in one is also open in the other.  To do so, it suffices to show that every set in a basis $$\beta_1$$ of $$\tau_1$$ belongs to $$\tau_2$$ and every set in a basis $$\beta_2$$ for $$\tau_2$$ belongs to $$\tau_1$$.
+**Proof:** To prove that two topologies $$\tau_1$$ and $$\tau_2$$ on a set $$X$$ are the same, we need to show every open set in one is also open in the other.  To do so, it suffices to show that every set in a basis $$\beta_1$$ of $$\tau_1$$ belongs to $$\tau_2$$ and every set in a basis $$\beta_2$$ for $$\tau_2$$ belongs to $$\tau_1$$.
 Since open intervals are a basis on $$\mathbb R$$, open rectangles $$\prod_{i=1}^n (a_i,b_i)$$ form a basis for the product topology on $$\mathbb R^n$$.
 Likewise, open balls form a basis for the Euclidean topology, and if we use the sup norm, open balls consist of open cubes $$(a,b)^n$$.
 Thus open balls are open rectangles and are open in the product topology.  Likewise, any open rectangle is a union of open squares and is thus open in the Euclidean topology.
