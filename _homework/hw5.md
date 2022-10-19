@@ -53,12 +53,12 @@ $$x = \frac{x_1}{2} + \frac{x_2}{2^2} + \frac{x_3}{2^3} + \dots.$$
 From one perspective, this is like a decimal expansion of $$x$$ but in base $$2$$.
 This is also how the value of a real number can be stored on a computer.
 
-* (A) Show that every real number in $$[0,1]$$ has a unique binary expansion.
+* (A) Show that every real number in $$[0,1]$$ has a binary expansion.
 * (B) Let $$X_i = \{0,1\}$$ for all $$i\in\mathbb N$$.  Use $$A$$ to prove that the function
 
 $$f:\prod_{i=1}^\infty X_i\rightarrow [0,1],\quad (x_1,x_2,x_3,\dots)\mapsto \sum_{i=1}^\infty x_i2^{-i}$$
 
-is bijective.
+is surjective.
 
 * (C) Suppose that $$X_i$$ has the discrete topology for all $$i$$ and that $$\prod_{i=1}^\infty X_i$$ has the product topology.  Show that the preimages of the sets $$[0,r)$$ and $$(r,1]$$ are open for all dyadic rationals $$r\in (0,1)$$.
 
