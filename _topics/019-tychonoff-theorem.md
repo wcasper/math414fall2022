@@ -75,7 +75,7 @@ By the maximality of $$\mathcal B$$, it follows that $$\pi_i^{-1}(U_i)\in \mathc
 Now if $$U$$ is an open set of $$X$$ containing $$(x_i)$$, then from the usual basis for the topology of $$X$$, there exists an open set of the form $$\prod_{i\in I}U_i$$ containing $$x_i$$ contained in $$U$$ with $$U_i=X_i$$ for all $$i\notin J$$ for some finite subset $$J\subseteq I$$. By definition, $$x_i\in U_i$$ for all $$i\in I$$.
 Consequently, $$\prod_{i\in I}U_i = \bigcap_{j\in J}\pi_j^{-1}(U_j)$$ and thus
 
-$$U\cap B\superseteq \bigcap_{j\in J}\pi_j^{-1}(U_j)\cap B \neq\varnothing$$
+$$U\cap B\supseteq \bigcap_{j\in J}\pi_j^{-1}(U_j)\cap B \neq\varnothing$$
 
 for all $$B\in \mathcal B$$.  Since $$U$$ was arbitrary, it follows that $$(x_i)\in\overline{B}$$ for all $$B\in\mathcal B$$.  Hence $$(x_i)$$ belongs to the intersection $$\bigcap_{B\in\mathcal{B}}\overline{B}$$, making the latter nonempty.
 
