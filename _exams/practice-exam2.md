@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Practice Exam 1
-permalink: /exams/practice-exam1
+title: Practice Exam 2
+permalink: /exams/practice-exam2
 ---
 
 ### Directions
