@@ -39,7 +39,7 @@ Remember that a **topological property** of a topological space $$X$$ is a prope
 * (A) Prove that compactness is a topological property
 * (B) Prove that second countability is a topological property
 * (C) Prove that Lindelof is a topological property
-* (D) Prove that completeness is a topological property
+* (D) Disprove that completeness is a topological property
 * (E) Prove that metrizable is a topological property
 
 **Problem 6:**
