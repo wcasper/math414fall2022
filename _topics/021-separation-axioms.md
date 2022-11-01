@@ -36,7 +36,7 @@ We can impose an even stronger condition by replacing our points with sets.
 | ------- | ----- | --------- |
 | $$T_3$$ | regular Hausdorff space | $$T_1$$ and any point and any closed set have disjoint open neighborhoods |
 | $$T_4$$ | normal Hausdorff space | $$T_1$$ and any disjoint closed sets have disjoint open neighborhoods |
-| $$T_5$$ | completely normal Hausdorff space | any two sets with disjoint closures have disjoint open neighborhoods |
+| $$T_5$$ | completely normal Hausdorff space | any subspace is $$T_4$$ |
 
 At some point the naming scheme gets absurd.  For example, $$T_6$$ spaces are called perfectly normal Hausdorff spaces.  There is probably a lesson here about using *descriptive naming schemes* so that future generations aren't stuck with trying to remember the difference between normal, regular, perfect, and other unqualified qualitative descriptors.
 
