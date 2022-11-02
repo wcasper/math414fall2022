@@ -3,7 +3,7 @@ layout: page
 title: Frechet and Hausdorff Spaces
 ---
 
-**Additional reading:** Simmons 5.26
+**Additional reading:** Simmons 5.26 and 5.27
 
 The most important separation axioms starting out $$T_1$$ or **Frechet** and $$T_2$$ or **Hausdorff**.
 

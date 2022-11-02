@@ -3,7 +3,7 @@ layout: page
 title: Separation Axioms
 ---
 
-**Additional reading:** Simmons 5.26
+**Additional reading:** Simmons 5.26 and 5.27
 
 As part of our goal in studying topological spaces, we are faced with a very natural question: which topological spaces are essentially the same and which are fundamentally different?  As we have seen above, this essentially amounts to the question of which topological spaces are homeomorphic.
 This is far from a unique experience in any field of mathematics, as a fundamental question in any discipline is how to tell whether one thing is the same as another.
