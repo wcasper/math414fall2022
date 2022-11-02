@@ -93,7 +93,7 @@ are all continuous and in the uniform norm
 
 $$\lVert s_n - g \rVert = \sup_{x\in X} \left|\sum_{k=n+1}^\infty g_k(x)(\frac{2}{3})^k\right| \leq \sum_{k=n+1}^\infty \frac{1}{3}\frac{2}{3}^k = \frac{2}{3}^{n+1}.$$
 
-Thus $$g$$ is continuous.
+Thus $$s_n$$ converges to $$g$$ in the uniform norm, forcing $$g$$ to be continuous.
 
 ### Urysohn's Embedding Theorem
 
