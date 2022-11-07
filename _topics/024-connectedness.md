@@ -26,7 +26,7 @@ In this part, we will focus in the second version of connectedness.
 
 Topologically, connectedness is preserved under closures.
 
-**Theorem:** If $$A\substeq X$$ is connected, then so is $$\overline A$$.
+**Theorem:** If $$A\subseteq X$$ is connected, then so is $$\overline A$$.
 
 **Proof:** Suppose that $$A$$ is connected.  If $$\overline A$$ is disconnected, the we can write $$\overline A$$ as the disjoint union of two non-empty open subsets $$U$$ and $$V$$.  It follows that $$A$$ is the disjoint union of $$A\cap U$$ and $$A\cap V$$, both of which are open in the relative topology, so either $$A\cap U=\varnothing$$ or $$A\cap V=\varnothing$$.  Without loss of generality $$A\cap U=\varnothing$$.  Then $$A$$ is contained in the closed set $$U'$$, so the closure of $$\overline{A}$$ of $$A$$ is also contained in $$U'$$.  Since $$U$$ and $$V$$ partition $$\overline{A}$$, this is a contradiction.
 
@@ -97,7 +97,7 @@ Leveraging this, we can prove that the product of any collection of connected sp
 **Theorem:** Let $$\{X_i: i\in I\}$$ be a collection of connected topological spaces.  Then the product $$\prod_{i\in I} X_i$$ is connected.
 
 **Proof:**  Let $$X = \prod_{i\in I} X_i$$ and suppose that there exists a continuous function $$f: X\rightarrow \{0,1\}$$.
-Fix $$(a_i: i\in I)\in X$.
+Fix $$(a_i: i\in I)\in X$$.
 For any $$j\in I$$, let $$\iota_j: X_j\rightarrow X$$ be the function which sends $$x$$ to the element whose $$i$$'th entry is $$a_i$$ for $$i\neq j$$ and whose $$j$$'th entry is $$x$$.
 Then $$f_j = f\circ \iota_j: X_j\rightarrow \{0,1\}$$ is continuous and therefore is constant.
 It follows that if $$(b_i: i\in I)$$ differs from $$(a_i: i\in I)$$ at finitely many vertices, then $$f((a_i)) = f((b_i))$$.
