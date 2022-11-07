@@ -109,7 +109,22 @@ This shows $$X$$ is connected.
 **Proof:** We know that $$\mathbb R^n$$ is homeomorphic to the product of $$n$$ copies of $$\mathbb{R}$$, so it follows from the previous theorem.
 
 
-**Question:** Can you prove that $$\mathbb R$$ and $$\mathbb R^2$$ are not homeomorphic?
+### Are different Euclidean spaces homeomorphic?
+
+As we already know, both $$\mathbb R$$ and $$\mathbb R^2$$ have the same cardinality.
+Likewise, the closed interval $$[0,1]$$ and the closed unit square $$[0,1]^2 = [0,1]\times [0,1]$$ have the same cardinality, so there exists a bijection
+
+$$f: [0,1]\rightarrow [0,1]^2.$$
+
+Thus one question we could ask is whether $$[0,1]$$ and $$[0,1]^2$$ are *homeomorphic*, ie. whether there is a continuous, bijective, open map from one to the other.
+At first blush, this seems preposterous!  The continuous image of an interval $$[0,1]$$ is a continuous **curve**, so can there really be such a curve which passes through each point in two dimensions?  Surprisingly, the answer is yes!
+One example is the Peano Curve, discovered in 1890.
+
+<p align="center"><img src="fig/Peanocurve.png"/></p>
+
+Thus the question of whether these two spaces are homeomorphic is far more delicate than it originally appears.
+
+**Question:** Can you prove that $$[0,1]$$ and $$[0,1]^2$$ are not homeomorphic?
 
 <details>
   <summary>Solution.</summary>
