@@ -41,23 +41,24 @@ Then $$A$$ can be expressed as the union of the nonempty, disjoint sets $$A\cap 
 Consequently $$(a,b)\subseteq A$$.
 It follows that $$A$$ has to be an interval.
 
-It remains to show that if $$A$$ is an interval, then it is simply connected.
-First we will show that if $$x,y\in \mathbb{R}$$ with $$x < y$$ then $$[x,y]$$ is connected.
-To see this, suppose otherwise.
-Then there exist nonempty, disjoint open sets $$U$$ and $$V$$ of $$[x,y]$$ with $$[x,y] = U\cup V$$.
-Note that this also implies that both $$U$$ and $$V$$ are closed.
 Without loss of generality, we may assume $$x\in U$$ and $$y\in V$$.
-Let $$z=\sup U$$.  Since $$U$$ is closed, $$z\in U$$.
 It is easy to see that $$z=\inf [x,y]\cap V$$, and since $$V$$ is closed $$z\in V$$.
 However, this contradicts $$U\cap V = \varnothing$$.
 Thus $$[x,y]$$ is connected.
 
+It remains to show that if $$A$$ is an interval, then it is connected.
 Now suppose that $$A$$ is an interval which is disconnected.
 Then we can write $$A = (U\cap A)\cup (V\cap A)$$ for some disjoint, nonempty open subsets $$U$$ and $$V$$ of $$\mathbb{R}$$.
 Take $$x\in U$$ and $$y\in V$$ and without loss of generality assume $$x < y$$.
 Then since $$A$$ is an interval $$[x,y]\subseteq A$$.
-It follows that $$[x,y]$$ is the disjoint union of $$[x,y]\cap U$$ and $$[x,y]\cap V$$, so $$[x,y]$$ is disconnected.
-This is a contradiction, so $$A$$ is connected.
+It follows that $$[x,y]$$ is the disjoint union of $$U_1 = [x,y]\cap U$$ and $$V_1 = [x,y]\cap V$$, so $$[x,y]$$ is disconnected.
+Note that $$U_1 = [x,y]\cap V'$$ and therefore $$U_1$$ is closed.  Likewise $$V_1$$ is closed.
+Let $$z=\sup U$$.  Since $$U$$ is closed, $$z\in U$$.
+However, $$U$$ is also open so there exists $$r>0$$ such that $$B_r(z)\cap [x,y]$$ is contained in $$U$$.
+Since $$z\neq y$$, we may take $$r$$ to be less than $$y-z$$ and less than $$z-x$$.
+Therefore $$B_r(z) = (z-r,z+r)\subseteq U$$.
+This implies, for example, that $$z + r/2$$ is contained in $$U$$, contradicting the fact that $$z$$ is the supremum.
+Therefore $$A$$ is connected.
 This completes the proof.
 
 One of the most useful parts of connectedness is that connectedness is preserved under continuous maps.
