@@ -10,11 +10,11 @@ In the actual exam, you will be allowed scratch paper and a pencil, but no calcu
 
 **Problem 1:** True or False!  Write TRUE if the statement is true and FALSE if the statement is false.  For practice, try to also supply a brief justification.
 
-(A) The set $$\mathbb R$$ with the discrete metric is an example of a space which is sequentially compact but not compact.
-(B) Every metric space is necessarily a Hausdorff space.
-(C) Every finite topological space is necessarily compact.
-(D) If $$X$$ is $$T_4$$ and second countable, then $$X$$ is metrizable.
-(E) If a finite topological space is connected, it must consist of a single point.
+* (A) The set $$\mathbb R$$ with the discrete metric is an example of a space which is sequentially compact but not compact.
+* (B) Every metric space is necessarily a Hausdorff space.
+* (C) Every finite topological space is necessarily compact.
+* (D) If $$X$$ is $$T_4$$ and second countable, then $$X$$ is metrizable.
+* (E) If a finite topological space is connected, it must consist of a single point.
 
 **Problem 2:** Definitions!  Make sure you know the definitions from last time.
 Also remember the following:
