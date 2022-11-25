@@ -6,13 +6,7 @@ permalink: /extras/extra-credit
 
 For extra credit, watch the following video and then solve the following problems.
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=AmgkSdhK4K8">
-</iframe>
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/AmgkSdhK4K8/0.jpg)](http://www.youtube.com/watch?v=AmgkSdhK4K8 "3B1B Topology Video")
-
-
+[![3B1B Topology Video Link](http://img.youtube.com/vi/AmgkSdhK4K8/0.jpg)](http://www.youtube.com/watch?v=AmgkSdhK4K8 "3B1B Topology Video")
 
 One of the key parts of the video is when we construct a new topological space by identifying points.  A space like this is called a **quotient space**.
 
