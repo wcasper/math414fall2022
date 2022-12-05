@@ -42,7 +42,7 @@ Unless otherwise specified, assume the topology is the Euclidean topology.
 * (A) $$\mathbb R$$ and the interval $$(0,\infty)$$
 * (B) the Cantor set and the set of all irrational numbers in $$[0,1]$$
 * (C) $$\mathbb R^2$$ and $$\mathbb R^3$$
-* (D) the Cantor set and the sete of all dyadic rational numbers in $$[0,1]$$
+* (D) the Cantor set and the set of all dyadic rational numbers in $$[0,1]$$
 * (E) the unit circle in $$\mathbb R^2$$ and the closed interval $$[0,1]$$
 
 **Problem 6:**
