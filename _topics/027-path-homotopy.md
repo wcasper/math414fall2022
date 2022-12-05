@@ -24,8 +24,10 @@ There are a variety of ways we can make new paths in $$X$$ out of old ones.
 * If $$\gamma$$ and $$\eta$$ are two paths in $$X$$, then the **concatenation** $$\eta * \gamma$$ is the path
 
 $$(\eta * \gamma)(t) = \left\lbrace
+\begin{array}{cc}
 \gamma(2t), & 0\leq t\leq 1/2\\
 \eta(2t-1), & 1/2\leq t\leq 1
+\end{array}
 \right\rbrace.$$
 
 In particular if $$\gamma$$ is a path from $$a$$ to $$b$$ and $$\eta$$ is a path from $$b$$ to $$c$$, then $$\eta * \gamma$$ is a path from $$a$$ to $$c$$.
