@@ -45,9 +45,12 @@ $$S^1 = \{(x,y)\in\mathbb R^2: x^2+y^2 = 1\}.$$
 $$\sim = \{((t,k),(t,k)): t\in \mathbb{R},\ k=0,1\}\cup\{((t,j),(t,k)): t\in \mathbb{R}\backslash\{0\},\ j,k=0,1\}.$$
 
 
-**Example 3:** To construct real projective space $$\mathbb RP^n$$, we start out with $$\mathbb R^n$$ and consider the equivalence relation
+**Example 3:** To construct **real projective space** $$\mathbb RP^n$$, we start out with $$X = \mathbb R^{n+1}\backslash\{0\}$$ and consider the equivalence relation
 
 $$(x_1,\dots, x_n)\sim (\lambda x_1,\dots, \lambda x_n),\ \forall x_1,\dots,x_n,\lambda\in\mathbb R,\ \lambda\neq 0.$$
 
+The quotient space $$X/\sim$$ is a compact topological space we call $$n$$ dimensional real projective space.
+
+**Example 4:** To construct the **Klein bottle**, we start with the unit square $$X = [0,1]\times [0,1]$$ and consider the equivalence relation which identifies $$(0,t)$$ and $$(1,t)$$ as well as $$(s,0)$$ and $$(1-s,1)$$ for all $$s,t\in[0,1]$$.
 
 
