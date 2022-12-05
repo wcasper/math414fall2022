@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus
+title: Extra Credit
 permalink: /extras/extra-credit
 ---
 
@@ -37,8 +37,8 @@ is a topology on $$X/\sim$$.  This is called the **quotient topology**.
 In the video, we consider the unit square $$X = [0,1]\times [0,1]\subseteq \mathbb R^2$$ with the Euclidean topology, along with the relation
 defined by setting $$(a,0)\sim (a,1)$$, $$(0,b)\sim(1,b)$$, $$(a,b)\sim (a,b)$$ and $$(a,b)\sim (b,a)$$ for all $$a,b\in [0,1]$$.
 
-* (A) Prove that $\sim$ is an equivalence relation on $$X$$.
-* (B) Describe a M\"{o}bius strip and why it is an interesting object from a geometric or topological point of view.
+* (A) Prove that $$\sim$$ is an equivalence relation on $$X$$.
+* (B) Describe a Mobius strip and why it is an interesting object from a geometric or topological point of view.
 * (C) Explain why the quotient space $$X/\sim$$ is the same as a Mobius strip, using the video for guidance.
 
 **Problem 3:**
