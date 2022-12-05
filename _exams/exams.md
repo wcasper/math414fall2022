@@ -8,6 +8,7 @@ permalink: /exams/exams
 
 * <a target="_parent" href="exam1.pdf">Exam 1 (pdf)</a>
 * <a target="_parent" href="exam2.pdf">Exam 2 (pdf)</a>
+* <a target="_parent" href="exam3.pdf">Exam 3 (pdf)</a>
 
 
 
