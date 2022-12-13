@@ -32,7 +32,7 @@ In the actual exam, you will be allowed scratch paper and a pencil, but no calcu
 
 **Problem 5:**
 
-For each of the following, decide whether the topological spaces are homeomorphic or noot.  Explain.
+For each of the following, decide whether the topological spaces are homeomorphic or not.  Explain.
 
 * The torus $$S^1\times S^1$$ and the cylinder $$S^1\times [0,1]$$
 * The space $$\mathbb R^2$$ and the space $$\mathbb R^3$$
