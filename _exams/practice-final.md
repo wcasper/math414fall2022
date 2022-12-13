@@ -10,6 +10,11 @@ In the actual exam, you will be allowed scratch paper and a pencil, but no calcu
 
 **Problem 1:** True or False!  Write TRUE if the statement is true and FALSE if the statement is false.  For practice, try to also supply a brief justification.
 
+* If $$C$$ is a connected component of a topological space, then $$C$$ is both open and closed.
+* The fundamental group of the plane minus two points is equal to a free group with two generators.
+* A continuous function between topological spaces induces a homomorphism of fundamental groups.
+* The product of two metric spaces with the product topology is metrizable.
+* Any topological space which is $$T_3$$ and second-countable is metrizable.
 
 **Problem 2:** Definitions!  Make sure you know the definitions from all of the previous exams.  Also know the following definitions:
 
