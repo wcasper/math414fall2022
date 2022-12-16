@@ -30,7 +30,7 @@ Let $$X$$ and $$Y$$ be topological spaces and let $$A\subseteq X$$ and $$B\subse
 
 Prove that the boundary satisfies
 
-$$\partial(A\times B) = ((\partial A)\times B)\cup (A\times(\partial B)).$$
+$$\partial(A\times B) = ((\partial A)\times \overline B)\cup (\overline A\times(\partial B)).$$
 
 Note: this gives a "partial" explanation of the notation $$\partial$$ for the boundary of a set.
 
